@@ -78,6 +78,9 @@ a:hover { text-decoration: underline; }
   height: 72px;
 }
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 20px;
   font-weight: 800;
   letter-spacing: -0.03em;
@@ -85,6 +88,11 @@ a:hover { text-decoration: underline; }
   white-space: nowrap;
 }
 .logo .dot { color: var(--gold); }
+.logo-mark {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
 .nav-links {
   display: flex;
   align-items: center;

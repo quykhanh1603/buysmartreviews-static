@@ -11,6 +11,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon-32.png": "favicon-32.png" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon-16.png": "favicon-16.png" });
+  eleventyConfig.addPassthroughCopy({ "src/apple-touch-icon.png": "apple-touch-icon.png" });
 
   eleventyConfig.setLibrary("md", null);
   eleventyConfig.setTemplateFormats(["html", "njk"]);

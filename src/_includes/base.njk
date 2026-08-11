@@ -6,6 +6,9 @@
 <title>{% if title %}{{ title }} — {% endif %}{{ site.name }}</title>
 <meta name="description" content="{{ description or site.description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
@@ -18,7 +21,7 @@
 
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="logo">Buy Smart<span class="dot">.</span> Reviews</a>
+    <a href="/" class="logo"><img src="/assets/brand/logo-mark.png" alt="" class="logo-mark" width="32" height="32">Buy Smart<span class="dot">.</span> Reviews</a>
     <nav class="nav-links">
       <a href="/#categories">Categories</a>
       <a href="/how-we-review-products/">How We Review</a>
@@ -36,7 +39,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-top">
-      <span class="logo">Buy Smart<span class="dot">.</span> Reviews</span>
+      <span class="logo"><img src="/assets/brand/logo-mark.png" alt="" class="logo-mark" width="32" height="32">Buy Smart<span class="dot">.</span> Reviews</span>
       <div class="footer-links">
         <a href="/about-buy-smart-reviews/">About</a>
         <a href="/how-we-review-products/">How We Review</a>
