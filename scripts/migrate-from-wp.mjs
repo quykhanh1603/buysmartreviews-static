@@ -117,9 +117,23 @@ async function main() {
 
   // 1. Categories
   const rawCategories = await fetchJson(`${WP_BASE}/wp-json/wp/v2/categories?per_page=100`);
+  const rawById = new Map(rawCategories.map((c) => [c.id, c]));
+  // WP category archive URLs include ancestor slugs (e.g. /category/reviews/jewelry/),
+  // so each category needs its full slug path, not just its own slug.
+  function categoryPath(id) {
+    const c = rawById.get(id);
+    if (!c) return [];
+    return c.parent ? [...categoryPath(c.parent), c.slug] : [c.slug];
+  }
   const categories = rawCategories
     .filter((c) => c.count > 0)
-    .map((c) => ({ id: c.id, slug: c.slug, name: decodeEntities(c.name), count: c.count }));
+    .map((c) => ({
+      id: c.id,
+      slug: c.slug,
+      name: decodeEntities(c.name),
+      count: c.count,
+      path: categoryPath(c.id).join("/"),
+    }));
   const categoryById = new Map(rawCategories.map((c) => [c.id, c.slug]));
   await mkdir(path.join(SRC, "_data"), { recursive: true });
   // Named allCategories (not "categories") so the global data variable doesn't

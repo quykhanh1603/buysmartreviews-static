@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 {%- endfor %}
 {%- for cat in allCategories %}
   <url>
-    <loc>{{ site.url }}/category/{{ cat.slug }}/</loc>
+    <loc>{{ site.url }}/category/{{ cat.path }}/</loc>
   </url>
 {%- endfor %}
 {%- for post in collections.posts %}

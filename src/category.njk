@@ -4,7 +4,7 @@ pagination:
   data: allCategories
   size: 1
   alias: category
-permalink: "/category/{{ category.slug }}/"
+permalink: "/category/{{ category.path }}/"
 eleventyComputed:
   title: "{{ category.name }} Reviews"
   description: "Honest, independent reviews of {{ category.name | lower }} stores and retailers."

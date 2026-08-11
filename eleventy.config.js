@@ -5,6 +5,7 @@ const categories = JSON.parse(
   readFileSync(path.join(import.meta.dirname, "src/_data/allCategories.json"), "utf8")
 );
 const categoryNameBySlug = new Map(categories.map((c) => [c.slug, c.name]));
+const categoryPathBySlug = new Map(categories.map((c) => [c.slug, c.path]));
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -24,6 +25,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("currentYear", () => new Date().getFullYear());
 
   eleventyConfig.addFilter("categoryName", (slug) => categoryNameBySlug.get(slug) ?? slug);
+  eleventyConfig.addFilter("categoryPath", (slug) => categoryPathBySlug.get(slug) ?? slug);
 
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 

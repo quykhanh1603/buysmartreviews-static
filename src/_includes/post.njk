@@ -4,7 +4,7 @@ layout: base.njk
 <div class="container">
   <p class="breadcrumb">
     <a href="/">Home</a> /
-    {% if categories.length %}<a href="/category/{{ categories[0] }}/">{{ categories[0] | categoryName }}</a>{% endif %}
+    {% if categories.length %}<a href="/category/{{ categories[0] | categoryPath }}/">{{ categories[0] | categoryName }}</a>{% endif %}
   </p>
 
   {% if "store-reviews" in categories %}

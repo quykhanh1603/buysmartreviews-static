@@ -3,96 +3,112 @@
     "id": 6,
     "slug": "bedroom-furniture",
     "name": "Bedroom Furniture",
-    "count": 10
+    "count": 10,
+    "path": "reviews/furniture/bedroom-furniture"
   },
   {
     "id": 13,
     "slug": "bicycles",
     "name": "Bicycles",
-    "count": 10
+    "count": 10,
+    "path": "reviews/bicycles"
   },
   {
     "id": 4,
     "slug": "cars-vehicles",
     "name": "Cars & Vehicles",
-    "count": 10
+    "count": 10,
+    "path": "reviews/cars-vehicles"
   },
   {
     "id": 8,
     "slug": "clothing",
     "name": "Clothing",
-    "count": 10
+    "count": 10,
+    "path": "reviews/clothing"
   },
   {
     "id": 16,
     "slug": "cosmetics-beauty",
     "name": "Cosmetics & Beauty",
-    "count": 10
+    "count": 10,
+    "path": "reviews/cosmetics-beauty"
   },
   {
     "id": 11,
     "slug": "electronics-technology",
     "name": "Electronics & Technology",
-    "count": 10
+    "count": 10,
+    "path": "reviews/electronics-technology"
   },
   {
     "id": 5,
     "slug": "furniture",
     "name": "Furniture",
-    "count": 10
+    "count": 10,
+    "path": "reviews/furniture"
   },
   {
     "id": 17,
     "slug": "garden-outdoor",
     "name": "Garden & Outdoor",
-    "count": 10
+    "count": 10,
+    "path": "reviews/garden-outdoor"
   },
   {
     "id": 15,
     "slug": "home-appliances",
     "name": "Home Appliances",
-    "count": 10
+    "count": 10,
+    "path": "reviews/home-appliances"
   },
   {
     "id": 7,
     "slug": "jewelry",
     "name": "Jewelry",
-    "count": 10
+    "count": 10,
+    "path": "reviews/jewelry"
   },
   {
     "id": 10,
     "slug": "mens-clothing",
     "name": "Men's Clothing",
-    "count": 10
+    "count": 10,
+    "path": "reviews/clothing/mens-clothing"
   },
   {
     "id": 12,
     "slug": "pet-supplies",
     "name": "Pet Supplies",
-    "count": 10
+    "count": 10,
+    "path": "reviews/pet-supplies"
   },
   {
     "id": 14,
     "slug": "shoes",
     "name": "Shoes",
-    "count": 10
+    "count": 10,
+    "path": "reviews/shoes"
   },
   {
     "id": 19,
     "slug": "store-reviews",
     "name": "Store Reviews",
-    "count": 2
+    "count": 2,
+    "path": "store-reviews"
   },
   {
     "id": 1,
     "slug": "uncategorized",
     "name": "Uncategorized",
-    "count": 1
+    "count": 1,
+    "path": "uncategorized"
   },
   {
     "id": 9,
     "slug": "womens-clothing",
     "name": "Women's Clothing",
-    "count": 10
+    "count": 10,
+    "path": "reviews/clothing/womens-clothing"
   }
 ]

@@ -1,4 +1,7 @@
 {
   "layout": "page.njk",
-  "permalink": "/{{ slug }}/"
+  "permalink": "/{{ slug }}/",
+  "tags": [
+    "page"
+  ]
 }
