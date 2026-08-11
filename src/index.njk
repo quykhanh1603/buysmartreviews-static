@@ -1,0 +1,141 @@
+---
+layout: base.njk
+title: ""
+eleventyComputed:
+  description: "{{ site.description }}"
+---
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-inner">
+    <span class="badge">🔍 {{ collections.posts.length }}+ independent store reviews</span>
+    <h1>Know who to trust <span class="gradient-text">before you buy</span></h1>
+    <p class="hero-sub">{{ site.description }}</p>
+    <div class="hero-cta">
+      <a href="#categories" class="btn btn-primary btn-lg">Browse Reviews</a>
+      <a href="/how-we-review-products/" class="btn btn-ghost btn-lg">How We Review ↓</a>
+    </div>
+    <p class="hero-note">No affiliate influence on ratings · Ad-supported, reader-first</p>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat-card">
+      <span class="stat-number">{{ collections.posts.length }}+</span>
+      <span class="stat-label">Stores reviewed</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">{{ allCategories.length }}</span>
+      <span class="stat-label">Categories covered</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">Independent research</span>
+    </div>
+  </div>
+</section>
+
+<section id="categories" class="categories">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Browse by category</span>
+      <h2>Find reviews in your niche</h2>
+    </div>
+    <div class="category-grid">
+      {% for cat in allCategories %}
+        {% if categoryIcons[cat.slug] %}
+        <a class="category-card" href="/category/{{ cat.slug }}/">
+          <img src="/assets/icons/{{ categoryIcons[cat.slug] }}" alt="">
+          <span class="cat-name">{{ cat.name }}</span>
+          <span class="cat-count">{{ cat.count }} reviews</span>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Why trust our reviews</span>
+      <h2>A consistent, honest evaluation process</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">1</div>
+        <h3>Research</h3>
+        <p>We gather customer feedback across multiple platforms — Trustpilot, BBB, Yelp, Google Reviews — plus public business records.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">2</div>
+        <h3>Cross-reference</h3>
+        <p>We compare patterns across sources rather than relying on any single platform, since one review profile can be incomplete or manipulated.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">3</div>
+        <h3>Evaluate</h3>
+        <p>We weigh responsiveness, transparency, complaint resolution, business longevity, and consistency over time.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">4</div>
+        <h3>Update</h3>
+        <p>Store evaluations are revisited periodically as new reviews and public data emerge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Latest reviews</span>
+      <h2>Recently published</h2>
+    </div>
+    <div class="card-grid">
+      {% for post in collections.posts | limit(6) %}
+      <a class="post-card" href="{{ post.url }}">
+        {% if post.data.categories.length %}<span class="pill">{{ post.data.categories[0] | categoryName }}</span>{% endif %}
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.excerpt | truncate(110) }}</p>
+        <span class="post-date">{{ post.data.date | readableDate }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-band-inner">
+    <h2>Spotted a store we haven't covered?</h2>
+    <p>Let us know and we'll look into it for our next round of reviews.</p>
+    <a href="/contact-us/" class="btn btn-primary btn-lg">Contact Us</a>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Frequently asked questions</span>
+      <h2>What you should know before reading a review</h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>How do you rate stores?</summary>
+        <p>We cross-reference customer feedback from multiple platforms (Trustpilot, BBB, Yelp, Google Reviews) along with public business records, weighing responsiveness, transparency, complaint resolution, and business longevity.</p>
+      </details>
+      <details>
+        <summary>Do businesses pay for a positive review?</summary>
+        <p>No. This site is funded by advertising, not by the businesses we review. Advertising does not influence which businesses we cover or how we rate them.</p>
+      </details>
+      <details>
+        <summary>What is the "Store Reviews" category?</summary>
+        <p>These are reader-requested store evaluations that may include affiliate links, always disclosed on the article itself. The evaluation criteria are the same as every other review on this site.</p>
+      </details>
+      <details>
+        <summary>How often are reviews updated?</summary>
+        <p>We revisit evaluations periodically as new customer reviews and public data emerge. Each article shows its original publish date and, where applicable, a last-updated date.</p>
+      </details>
+    </div>
+  </div>
+</section>

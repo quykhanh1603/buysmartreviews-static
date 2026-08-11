@@ -1,0 +1,30 @@
+---
+layout: base.njk
+pagination:
+  data: allCategories
+  size: 1
+  alias: category
+permalink: "/category/{{ category.slug }}/"
+eleventyComputed:
+  title: "{{ category.name }} Reviews"
+  description: "Honest, independent reviews of {{ category.name | lower }} stores and retailers."
+---
+<div class="container">
+  <div class="section-head">
+    {% if categoryIcons[category.slug] %}<img src="/assets/icons/{{ categoryIcons[category.slug] }}" alt="" width="40" height="40">{% endif %}
+    <h1>{{ category.name }} Reviews</h1>
+    <p>{{ category.count }} independent store review{{ "s" if category.count != 1 }} in this category.</p>
+  </div>
+
+  <div class="card-grid">
+    {% for post in collections.posts %}
+      {% if category.slug in post.data.categories %}
+      <a class="post-card" href="{{ post.url }}">
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.excerpt }}</p>
+        <span class="post-date">{{ post.data.date | readableDate }}</span>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": "buysmartreviews-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Buy Smart Reviews — static site (Eleventy), migrated from WordPress",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy && pagefind --site _site --output-subdir pagefind",
+    "serve": "eleventy --serve",
+    "migrate": "node scripts/migrate-from-wp.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "cheerio": "^1.0.0",
+    "pagefind": "^1.1.0"
+  }
+}

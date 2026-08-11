@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if title %}{{ title }} — {% endif %}{{ site.name }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+{% if jsonLd %}
+<script type="application/ld+json">{{ jsonLd | dump | safe }}</script>
+{% endif %}
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">Buy Smart<span class="dot">.</span> Reviews</a>
+    <nav class="nav-links">
+      <a href="/#categories">Categories</a>
+      <a href="/how-we-review-products/">How We Review</a>
+      <a href="/about-buy-smart-reviews/">About</a>
+      <a href="/search/">Search</a>
+      <a href="/contact-us/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main data-pagefind-body>
+{{ content | safe }}
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <span class="logo">Buy Smart<span class="dot">.</span> Reviews</span>
+      <div class="footer-links">
+        <a href="/about-buy-smart-reviews/">About</a>
+        <a href="/how-we-review-products/">How We Review</a>
+        <a href="/privacy-policy/">Privacy Policy</a>
+        <a href="/contact-us/">Contact</a>
+      </div>
+    </div>
+    <p class="disclaimer">
+      Buy Smart Reviews is reader-supported and displays advertising, including Google-served ads, to
+      cover research and operating costs. Advertising does not influence which businesses we choose to
+      cover or how we rate them. We are not affiliated with any business we review. Some reviews in our
+      Store Reviews section include affiliate links, disclosed on the article itself.
+    </p>
+    <p class="copyright">&copy; {{ currentYear }} Buy Smart Reviews. Independent research, not an official representative of any business reviewed.</p>
+  </div>
+</footer>
+
+<script src="/pagefind/pagefind-ui.js"></script>
+</body>
+</html>

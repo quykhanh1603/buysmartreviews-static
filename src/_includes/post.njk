@@ -1,0 +1,53 @@
+---
+layout: base.njk
+---
+<div class="container">
+  <p class="breadcrumb">
+    <a href="/">Home</a> /
+    {% if categories.length %}<a href="/category/{{ categories[0] }}/">{{ categories[0] | categoryName }}</a>{% endif %}
+  </p>
+
+  {% if "store-reviews" in categories %}
+  <div class="disclosure">
+    <strong>Affiliate disclosure:</strong> this article includes affiliate links. If you make a purchase
+    through a link on this page, we may earn a commission at no extra cost to you.
+  </div>
+  {% endif %}
+
+  <div class="article-header">
+    {% if categories.length %}<span class="pill">{{ categories[0] | categoryName }}</span>{% endif %}
+    <h1>{{ title }}</h1>
+    <p class="post-meta">
+      <span>Published {{ date | readableDate }}</span>
+      {% if modified and modified != date %}<span>Updated {{ modified | readableDate }}</span>{% endif %}
+    </p>
+  </div>
+
+  <div class="ad-slot">Advertisement</div>
+
+  <div class="article-body">
+    {{ content | safe }}
+  </div>
+
+  <div class="ad-slot">Advertisement</div>
+
+  {% set related = collections.posts | filterRelated(categories, slug) %}
+  {% if related.length %}
+  <div class="related">
+    <h2>Related reviews</h2>
+    <div class="card-grid">
+      {% for post in related %}
+      <a class="post-card" href="{{ post.url }}">
+        {% if post.data.categories.length %}<span class="pill">{{ post.data.categories[0] | categoryName }}</span>{% endif %}
+        <h3>{{ post.data.title }}</h3>
+        <span class="post-date">{{ post.data.date | readableDate }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="comments">
+    {% include "giscus.njk" %}
+  </div>
+</div>
