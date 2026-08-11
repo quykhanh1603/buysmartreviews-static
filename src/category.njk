@@ -13,7 +13,6 @@ eleventyComputed:
   <div class="section-head">
     {% if categoryIcons[category.slug] %}<img src="/assets/icons/{{ categoryIcons[category.slug] }}" alt="" width="40" height="40">{% endif %}
     <h1>{{ category.name }} Reviews</h1>
-    <p>{{ category.count }} independent store review{{ "s" if category.count != 1 }} in this category.</p>
   </div>
 
   <div class="card-grid">
