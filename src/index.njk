@@ -93,6 +93,7 @@ eleventyComputed:
     <div class="card-grid">
       {% for post in collections.posts | limit(6) %}
       <a class="post-card" href="{{ post.url }}">
+        {% if post.data.image %}<img src="{{ post.data.image }}" alt="" class="post-card-thumb" loading="lazy">{% endif %}
         {% if post.data.categories.length %}<span class="pill">{{ post.data.categories[0] | categoryName }}</span>{% endif %}
         <h3>{{ post.data.title }}</h3>
         <p>{{ post.data.excerpt | truncate(110) }}</p>

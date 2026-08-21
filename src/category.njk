@@ -19,6 +19,7 @@ eleventyComputed:
     {% for post in collections.posts %}
       {% if category.slug in post.data.categories %}
       <a class="post-card" href="{{ post.url }}">
+        {% if post.data.image %}<img src="{{ post.data.image }}" alt="" class="post-card-thumb" loading="lazy">{% endif %}
         <h3>{{ post.data.title }}</h3>
         <p>{{ post.data.excerpt }}</p>
         <span class="post-date">{{ post.data.date | readableDate }}</span>

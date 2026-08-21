@@ -23,11 +23,24 @@ layout: base.njk
     </p>
   </div>
 
+  {% if image %}<img src="{{ image }}" alt="{{ title }}" class="post-hero-image">{% endif %}
+
   <div class="ad-slot">Advertisement</div>
 
   <div class="article-body">
     {{ content | safe }}
   </div>
+
+  {% if faq.length %}
+  <div class="faq-list">
+    {% for item in faq %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+  {% endif %}
 
   <div class="ad-slot">Advertisement</div>
 

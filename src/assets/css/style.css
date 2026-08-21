@@ -274,6 +274,13 @@ a:hover { text-decoration: underline; }
 .post-card h3 { font-size: 17px; line-height: 1.35; }
 .post-card p { color: var(--text-muted); font-size: 14px; }
 .post-card .post-date { color: var(--text-muted); font-size: 12px; margin-top: auto; }
+.post-card-thumb {
+  width: calc(100% + 48px);
+  margin: -24px -24px 0;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
 
 .pill {
   display: inline-block;
@@ -315,6 +322,15 @@ details p { margin-top: 12px; color: var(--text-muted); font-size: 14px; }
 .article-header { max-width: 760px; margin: 0 auto 28px; }
 .article-header h1 { font-size: 32px; margin: 14px 0 10px; }
 .post-meta { color: var(--text-muted); font-size: 13px; display: flex; gap: 14px; flex-wrap: wrap; }
+.post-hero-image {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 24px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
 .article-body { max-width: 760px; margin: 0 auto; font-size: 16px; }
 .article-body h2 { font-size: 22px; margin: 32px 0 12px; }
 .article-body p { margin-bottom: 16px; color: var(--text); }

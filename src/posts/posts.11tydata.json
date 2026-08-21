@@ -3,5 +3,8 @@
   "permalink": "/{{ slug }}/",
   "tags": [
     "post"
-  ]
+  ],
+  "eleventyComputed": {
+    "description": "{{ excerpt }}"
+  }
 }
