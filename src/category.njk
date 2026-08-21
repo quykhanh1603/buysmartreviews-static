@@ -7,7 +7,7 @@ pagination:
 permalink: "/category/{{ category.path }}/"
 eleventyComputed:
   title: "{{ category.name }} Reviews"
-  description: "Honest, independent reviews of {{ category.name | lower }} stores and retailers."
+  description: "Honest, independent reviews of {{ category.name | lower | safe }} stores and retailers."
 ---
 <div class="container">
   <div class="section-head">

@@ -5,6 +5,6 @@
     "post"
   ],
   "eleventyComputed": {
-    "description": "{{ excerpt }}"
+    "description": "{{ excerpt | safe }}"
   }
 }
