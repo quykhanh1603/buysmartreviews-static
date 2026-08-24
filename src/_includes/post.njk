@@ -7,12 +7,10 @@ layout: base.njk
     {% if categories.length %}<a href="/category/{{ categories[0] | categoryPath }}/">{{ categories[0] | categoryName }}</a>{% endif %}
   </p>
 
-  {% if "store-reviews" in categories %}
   <div class="disclosure">
     <strong>Affiliate disclosure:</strong> this article includes affiliate links. If you make a purchase
     through a link on this page, we may earn a commission at no extra cost to you.
   </div>
-  {% endif %}
 
   <div class="article-header">
     {% if categories.length %}<span class="pill">{{ categories[0] | categoryName }}</span>{% endif %}
