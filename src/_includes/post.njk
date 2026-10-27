@@ -23,6 +23,28 @@ layout: base.njk
 
   {% if image %}<img src="{{ image }}" alt="{{ title }}" class="post-hero-image">{% endif %}
 
+  {% if verdict or facts.length or pros.length or cons.length %}
+  <div class="review-summary">
+    {% if verdict %}
+    <h2>Quick verdict</h2>
+    <p class="verdict">{{ verdict }}</p>
+    {% endif %}
+    {% if facts.length %}
+    <table class="facts-table">
+      {% for fact in facts %}
+      <tr><th scope="row">{{ fact.label }}</th><td>{{ fact.value }}</td></tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+    {% if pros.length or cons.length %}
+    <div class="pros-cons">
+      {% if pros.length %}<div class="pros"><h3>Pros</h3><ul>{% for p in pros %}<li>{{ p }}</li>{% endfor %}</ul></div>{% endif %}
+      {% if cons.length %}<div class="cons"><h3>Cons</h3><ul>{% for c in cons %}<li>{{ c }}</li>{% endfor %}</ul></div>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
   <div class="ad-slot">Advertisement</div>
 
   <div class="article-body">

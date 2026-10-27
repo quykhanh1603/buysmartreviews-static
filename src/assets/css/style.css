@@ -360,6 +360,35 @@ details p { margin-top: 12px; color: var(--text-muted); font-size: 14px; }
 .related { max-width: 760px; margin: 48px auto 0; }
 .related h2 { font-size: 20px; margin-bottom: 16px; }
 
+/* Review summary: quick verdict, key facts, pros/cons */
+.review-summary {
+  max-width: 760px;
+  margin: 0 auto 28px;
+  padding: 22px 24px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+}
+.review-summary h2 { font-size: 18px; margin-bottom: 8px; }
+.review-summary .verdict { margin-bottom: 18px; }
+.facts-table { width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 18px; }
+.facts-table th, .facts-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+.facts-table th { width: 40%; color: var(--text-muted); font-weight: 600; }
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.pros-cons h3 { font-size: 15px; margin-bottom: 6px; }
+.pros-cons ul { list-style: none; font-size: 14px; }
+.pros-cons li { padding: 4px 0 4px 22px; position: relative; }
+.pros-cons .pros li::before { content: "✓"; position: absolute; left: 0; color: #1e8a4c; font-weight: 700; }
+.pros-cons .cons li::before { content: "✕"; position: absolute; left: 0; color: #b3261e; font-weight: 700; }
+.site-screenshot { margin: 8px 0 24px; }
+.site-screenshot img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: 10px; }
+.site-screenshot figcaption { font-size: 13px; color: var(--text-muted); margin-top: 6px; text-align: center; }
+@media (max-width: 600px) {
+  .pros-cons { grid-template-columns: 1fr; }
+  .review-summary { padding: 18px 16px; }
+}
+
 /* Search */
 .search-page { max-width: 760px; margin: 0 auto; }
 #search { margin-top: 20px; }
