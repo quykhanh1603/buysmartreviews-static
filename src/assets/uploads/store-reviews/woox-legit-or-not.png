@@ -1,0 +1,1269 @@
+<!doctype html><html lang="cs" dir="ltr" class="header-background-light external-fonts-loaded"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>WOOX</title><link rel="preconnect" href="https://cdn.myshoptet.com" /><link rel="dns-prefetch" href="https://cdn.myshoptet.com" /><link href="/cms/templates/frontend_templates/shared/css/font-face/nunito.css" rel="stylesheet"><script>
+dataLayer = [];
+dataLayer.push({'shoptet' : {
+    "pageId": 1,
+    "pageType": "homepage",
+    "currency": "CZK",
+    "currencyInfo": {
+        "decimalSeparator": ",",
+        "exchangeRate": 1,
+        "priceDecimalPlaces": 0,
+        "symbol": "K\u010d",
+        "symbolLeft": 0,
+        "thousandSeparator": " "
+    },
+    "language": "cs",
+    "projectId": 418004,
+    "cartInfo": {
+        "id": null,
+        "freeShipping": false,
+        "freeShippingFrom": 2500,
+        "leftToFreeGift": {
+            "formattedPrice": "0 K\u010d",
+            "priceLeft": 0
+        },
+        "freeGift": false,
+        "leftToFreeShipping": {
+            "priceLeft": 2500,
+            "dependOnRegion": 0,
+            "formattedPrice": "2 500 K\u010d"
+        },
+        "discountCoupon": [],
+        "getNoBillingShippingPrice": {
+            "withoutVat": 0,
+            "vat": 0,
+            "withVat": 0
+        },
+        "cartItems": [],
+        "taxMode": "ORDINARY"
+    },
+    "cart": [],
+    "customer": {
+        "priceRatio": 1,
+        "priceListId": 1,
+        "groupId": null,
+        "registered": false,
+        "mainAccount": false
+    }
+}});
+dataLayer.push({'cookie_consent' : {
+    "marketing": "denied",
+    "analytics": "denied"
+}});
+document.addEventListener('DOMContentLoaded', function() {
+    shoptet.consent.onAccept(function(agreements) {
+        if (agreements.length == 0) {
+            return;
+        }
+        dataLayer.push({
+            'cookie_consent' : {
+                'marketing' : (agreements.includes(shoptet.config.cookiesConsentOptPersonalisation)
+                    ? 'granted' : 'denied'),
+                'analytics': (agreements.includes(shoptet.config.cookiesConsentOptAnalytics)
+                    ? 'granted' : 'denied')
+            },
+            'event': 'cookie_consent'
+        });
+    });
+});
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WXQG6XF');</script>
+<!-- End Google Tag Manager -->
+
+<meta property="og:type" content="website"><meta property="og:site_name" content="Woox"><meta property="og:url" content="https://www.woox.cz/"><meta property="og:title" content="WOOX"><meta name="author" content="Woox"><meta name="web_author" content="Shoptet.cz"><meta name="dcterms.rightsHolder" content="www.woox.cz"><meta name="robots" content="index,follow"><meta property="og:image" content="/user/logos/woox_logo_200_px.png?t=1793527246"><meta property="og:description" content="Jít ven, dívat se, naslouchat, vnímat.Nepřemýšlet, co si vzít na sebe,když není jasno a bezvětří. A i když je.
+Oblečení, které tvoříme, funguje v každém počasí a všude. Jsme nadšení ze tvého nadšení, když se vrátíš z cesty kolem světa a potřebuješ nám říct, jak skvěle ti fungovala tvá jediná bunda. Ta a všechno…"><meta name="description" content="Jít ven, dívat se, naslouchat, vnímat.Nepřemýšlet, co si vzít na sebe,když není jasno a bezvětří. A i když je.
+Oblečení, které tvoříme, funguje v každém počasí a všude. Jsme nadšení ze tvého nadšení, když se vrátíš z cesty kolem světa a potřebuješ nám říct, jak skvěle ti fungovala tvá jediná bunda. Ta a všechno…"><style>:root {--color-primary: #000000;--color-primary-h: 0;--color-primary-s: 0%;--color-primary-l: 0%;--color-primary-hover: #000000;--color-primary-hover-h: 0;--color-primary-hover-s: 0%;--color-primary-hover-l: 0%;--color-secondary: #000000;--color-secondary-h: 0;--color-secondary-s: 0%;--color-secondary-l: 0%;--color-secondary-hover: #000000;--color-secondary-hover-h: 0;--color-secondary-hover-s: 0%;--color-secondary-hover-l: 0%;--color-tertiary: #000000;--color-tertiary-h: 0;--color-tertiary-s: 0%;--color-tertiary-l: 0%;--color-tertiary-hover: #000000;--color-tertiary-hover-h: 0;--color-tertiary-hover-s: 0%;--color-tertiary-hover-l: 0%;--color-header-background: #ffffff;--template-font: "Nunito";--template-headings-font: "Nunito";--header-background-url: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");--cookies-notice-background: #F8FAFB;--cookies-notice-color: #252525;--cookies-notice-button-hover: #27263f;--cookies-notice-link-hover: #3b3a5f;--templates-update-management-preview-mode-content: "Náhled aktualizací šablony je aktivní pro váš prohlížeč."}</style>
+<!-- User include --><!-- project html code header -->
+<!-- FLOWBOX - START -->
+<script>
+  (function(d, id) {
+    if (!window.flowbox) {
+      var f = function () { f.q.push(arguments); };
+      f.q = [];
+      window.flowbox = f;
+    }
+    if (d.getElementById(id)) { return; }
+    var s = d.createElement('script'),
+        fjs = d.scripts[d.scripts.length - 1];
+    s.id = id;
+    s.async = true;
+    s.src = 'https://connect.getflowbox.com/flowbox.js';
+    fjs.parentNode.insertBefore(s, fjs);
+  })(document, 'flowbox-js-embed');
+</script>
+<!-- FLOWBOX - END -->
+
+<!-- JQUERY Vypnuto od ledna nutné mít. NEMAZAT!!! -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<!--<script
+  src="https://browser.sentry-cdn.com/7.73.0/bundle.tracing.replay.debug.min.js"
+  integrity="sha384-7W5h8eXK1f17JZHx8Oh/dgMGnmGasyikq+QVKpxVZu+Yj74Kjmps89IKMbFStSYR"
+  crossorigin="anonymous"
+></script>
+<script>
+  Sentry.onLoad(function() {
+    Sentry.init({
+      dsn: 'https://4988a9f23adf6e5264dc3d5b7053e1b4@sentry.dancingcode.cz/6',
+      debug: false,
+       // Performance Monitoring
+      tracesSampleRate: 1.0, // Capture 100% of the transactions, reduce in production!
+      // Session Replay
+      replaysSessionSampleRate: 1.0, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
+      replaysOnErrorSampleRate: 1.0, // If you're not already sampling the entire session, change the sample rate to 100% when sampling sessions where errors occur.
+    	profilesSampleRate: 1.0,
+      integrations: [new Sentry.Replay({ maskAllText: false, blockAllMedia: false }), new Sentry.BrowserTracing()], // { maskAllText: true, blockAllMedia: true }   new Sentry.BrowserTracing()
+    });
+  });
+</script> -->
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/favicon-16x16.png">
+<link rel="manifest" href="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/site.webmanifest">
+<link rel="mask-icon" href="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css">
+<link rel="manifest" href="/user/documents/manifest.json" crossorigin="use-credentials">
+<!-- <link href="https://cdn.myshoptet.com/usr/418004.myshoptet.com/user/documents/style.css?v=2024-08-15" rel="stylesheet" /> -->
+
+<!-- MIME - START -->
+<link rel="stylesheet" href="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/style.css?v=2026-10-20">
+<!-- MIME - END -->
+
+
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<meta name="google-site-verification" content="zSj9j5pY_mu6aDw9zFxT9CwST32RN_3DkOuCXTA82sI" />
+<!-- Config -->
+<script>
+const contactPhone = '+420 725 222 121'
+const contactHours = 'Po–Pá 9:00–17:00'
+</script>
+
+
+
+<style> 
+/* countdown header banner */
+.count-down.black-friday{color:#FFFFFF; background: #FC072C;}
+.count-down .color {color:#000000;}
+.count-down.black-friday:before {background-image: url("/user/documents/upload/icons/fire.svg")} /* 16px x 16px */
+/* countdown header banner */
+.p-data-wrapper .product-additional-dsc .country-origin {margin: 0}
+.p-data-wrapper .product-additional-dsc .inner div p,
+.p-data-wrapper .product-additional-dsc .inner div{line-height:21px;font-size:14px!important;letter-spacing: inherit!important;}
+.cart-table .p-total .remove-item .sr-only{color:#000;}
+.reverse_charge .cart-widget-products .sale{display:none;}
+.lost-pasword+.lost-pasword{display:none;}
+.id--8 #register-form .co-registration h4{display:none;}
+.id--15 .cart-content{flex-direction:column;}
+.open #products-listing-order::before{transform: rotate(180deg);}
+.p-data-wrapper, .type-detail .breadcrumbs{visibility: hidden}
+.cart-header .step-1 a span {}
+.id--16 .order-summary-item[data-micro=cartItem] .cart-item-price, .id--17 .order-summary-item[data-micro=cartItem] .cart-item-price{text-align:right;}
+.open #products-listing-order::before{
+	transform: rotate(180deg);
+}
+button.toggle-coupon-input-button{color:black}
+.products-related-header, .products-related-wrapper {
+display: none
+}
+
+@media (min-width: 1024px) {
+    .custom-footer h3 {
+       margin: 0 0 1.9375rem;
+    }
+}
+
+/* ZNEVIDITELNĚNÍ DATA ODESLÁNÍ 
+.p-detail-inner .delivery-text { display: none !important }
+.ordering-process .delivery-info { display: none !important } 
+ */
+ 
+ 
+ /*A/B test HP categories, USP */
+.position--benefitHomepage .usp .usp-item .icon img {
+    height: 80%;
+}
+
+.id--16 .personalShip label {
+background: url('https://www.woox.cz/user/documents/upload/logo_b.svg') center right / 50px auto no-repeat;
+}
+</style>
+
+
+<!--
+<script
+  src="https://sentry.mimedigital.cz/js-sdk-loader/d43359f3ceb53275dcab048fb2ab14c7.min.js"
+  crossorigin="anonymous"
+></script>
+<script>
+  Sentry.onLoad(function() {
+    Sentry.init({
+      integrations: [
+        Sentry.replayIntegration({
+          maskAllText: false,
+          blockAllMedia: false,
+        }),
+      ],
+      // Performance Monitoring
+      tracesSampleRate: 1.0, // Capture 100% of the transactions
+      // Session Replay
+      replaysSessionSampleRate: 0.1, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
+      replaysOnErrorSampleRate: 1.0, // If you're not already sampling the entire session, change the sample rate to 100% when sampling sessions where errors occur.
+    });
+  });
+</script>
+
+<script>
+  // myUndefinedFunction();
+</script>
+-->
+
+
+<!-- sizechat start -->
+<style>
+.size-table-button {display: none} /*hide mime sizecharts*/
+/* tmp for placing reviews between segmentify widgets */
+.ratings-and-brand {
+justify-content: flex-end !important; /* override wrong? mobile space-between */
+}
+body:not(.customer-page) .content-wrapper-in {display: flex;  flex-direction: column;} 
+.content-wrapper-in .seg-reco-wrapper:nth-of-type(1) {
+ order: 1;
+}
+.content-wrapper-in .sizechat-feedback-list {
+ order: 2;
+ margin: 1.75rem 0;
+}
+ 
+</style>
+<!-- sizechat end -->
+<!-- /User include --><link rel="canonical" href="https://www.woox.cz/" /><script>!function(){var t={9196:function(){!function(){var t=/\[object (Boolean|Number|String|Function|Array|Date|RegExp)\]/;function r(r){return null==r?String(r):(r=t.exec(Object.prototype.toString.call(Object(r))))?r[1].toLowerCase():"object"}function n(t,r){return Object.prototype.hasOwnProperty.call(Object(t),r)}function e(t){if(!t||"object"!=r(t)||t.nodeType||t==t.window)return!1;try{if(t.constructor&&!n(t,"constructor")&&!n(t.constructor.prototype,"isPrototypeOf"))return!1}catch(t){return!1}for(var e in t);return void 0===e||n(t,e)}function o(t,r,n){this.b=t,this.f=r||function(){},this.d=!1,this.a={},this.c=[],this.e=function(t){return{set:function(r,n){u(c(r,n),t.a)},get:function(r){return t.get(r)}}}(this),i(this,t,!n);var e=t.push,o=this;t.push=function(){var r=[].slice.call(arguments,0),n=e.apply(t,r);return i(o,r),n}}function i(t,n,o){for(t.c.push.apply(t.c,n);!1===t.d&&0<t.c.length;){if("array"==r(n=t.c.shift()))t:{var i=n,a=t.a;if("string"==r(i[0])){for(var f=i[0].split("."),s=f.pop(),p=(i=i.slice(1),0);p<f.length;p++){if(void 0===a[f[p]])break t;a=a[f[p]]}try{a[s].apply(a,i)}catch(t){}}}else if("function"==typeof n)try{n.call(t.e)}catch(t){}else{if(!e(n))continue;for(var l in n)u(c(l,n[l]),t.a)}o||(t.d=!0,t.f(t.a,n),t.d=!1)}}function c(t,r){for(var n={},e=n,o=t.split("."),i=0;i<o.length-1;i++)e=e[o[i]]={};return e[o[o.length-1]]=r,n}function u(t,o){for(var i in t)if(n(t,i)){var c=t[i];"array"==r(c)?("array"==r(o[i])||(o[i]=[]),u(c,o[i])):e(c)?(e(o[i])||(o[i]={}),u(c,o[i])):o[i]=c}}window.DataLayerHelper=o,o.prototype.get=function(t){var r=this.a;t=t.split(".");for(var n=0;n<t.length;n++){if(void 0===r[t[n]])return;r=r[t[n]]}return r},o.prototype.flatten=function(){this.b.splice(0,this.b.length),this.b[0]={},u(this.a,this.b[0])}}()}},r={};function n(e){var o=r[e];if(void 0!==o)return o.exports;var i=r[e]={exports:{}};return t[e](i,i.exports,n),i.exports}n.n=function(t){var r=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(r,{a:r}),r},n.d=function(t,r){for(var e in r)n.o(r,e)&&!n.o(t,e)&&Object.defineProperty(t,e,{enumerable:!0,get:r[e]})},n.o=function(t,r){return Object.prototype.hasOwnProperty.call(t,r)},function(){"use strict";n(9196)}()}();</script></head><body class="desktop id-1 in-index template-13 type-index one-column-body has-carousel columns-4 blank-mode blank-mode-css blank-mode-js ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1">
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    autoLogAppEvents : true,
+                    xfbml            : true,
+                    version          : 'v24.0'
+                });
+            };
+        </script>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v24.0"></script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXQG6XF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="siteCookies siteCookies--center siteCookies--light js-siteCookies" role="dialog" data-testid="cookiesPopup" data-nosnippet>
+        <div class="siteCookies__form">
+            <div class="siteCookies__content">
+                <div class="siteCookies__text">
+                    <h2 id="CybotCookiebotDialogBodyContentTitle" lang="cs">Tato webová stránka používá cookies</h2>
+<div id="CybotCookiebotDialogBodyContentText" lang="cs">K personalizaci obsahu a reklam, poskytování funkcí sociálních médií a analýze naší návštěvnosti využíváme soubory cookie. Informace o tom, jak náš web používáte, sdílíme se svými partnery pro sociální média, inzerci a analýzy. Partneři tyto údaje mohou zkombinovat s dalšími informacemi, které jste jim poskytli nebo které získali v důsledku toho, že používáte jejich služby.</div>
+                </div>
+                <p class="siteCookies__links">
+                    <button class="siteCookies__link js-cookies-settings" aria-label="Nastavení cookies" data-testid="cookiesSettings">Nastavení</button>
+                </p>
+            </div>
+            <div class="siteCookies__buttonWrap">
+                                <button class="siteCookies__button js-cookiesConsentSubmit" value="all" aria-label="Přijmout cookies" data-testid="buttonCookiesAccept">Souhlasím</button>
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const siteCookies = document.querySelector('.js-siteCookies');
+                document.addEventListener("scroll", shoptet.common.throttle(() => {
+                    const st = document.documentElement.scrollTop;
+                    if (st > 1) {
+                        siteCookies.classList.add('siteCookies--scrolled');
+                    } else {
+                        siteCookies.classList.remove('siteCookies--scrolled');
+                    }
+                }, 100));
+            });
+        </script>
+    </div>
+<a href="#content" class="skip-link sr-only">Přejít na obsah</a><div class="overall-wrapper"><div class="site-msg information"><div class="container"><div class="text"><div class="not-woox-club" style="display:block;"><a href="/registrace/">STAŇTE SE ČLENEM WOOXKLUBU, ZÍSKEJTE 50% SLEVU</a></div>
+<div class="woox-club"  style="display:block;">Děkujeme, že jsi ve Woox klubu. <br>Všechny produkty jsou ti k dispozici za polovinu.</div>
+
+<!--
+<div class="count-down black-friday"><span class="color">DOPRAVA ZDARMA</span> končí za: <span class="count-down-timer" data-date="2026-10-12" data-time="00:00"/></div>
+--></div><div class="close js-close-information-msg"></div></div></div><div class="user-action"><div class="container">
+    <div class="user-action-in">
+                    <div id="login" class="user-action-login popup-widget login-widget" role="dialog" aria-labelledby="loginHeading">
+        <div class="popup-widget-inner">
+                            <h2 id="loginHeading">Přihlášení k vašemu účtu</h2><div id="customerLogin">     <form action="/action/Customer/Login/" method="post" id="formLoginIncluded" class="csrf-enabled login-form" data-testid="formLogin" novalidate><input type="hidden" name="referer" value="" /><div class="form-group smart-label-wrapper"><label for="loginWidgetEmail"><span class="required-asterisk">E-mail</span></label><div class="form-control-wrapper js-validated-element-wrapper"><input type="email" name="email" id="loginWidgetEmail" class="form-control js-validate js-validate-required" data-testid="inputEmail" autocomplete="email" required autofocus /></div></div><div class="form-group smart-label-wrapper"><label for="loginWidgetPassword"><span class="required-asterisk">Heslo</span></label><div class="form-control-wrapper js-validated-element-wrapper"><input type="password" name="password" id="loginWidgetPassword" class="form-control js-validate js-validate-required" data-testid="inputPassword" autocomplete="current-password" required /><span class="sr-only" inert><span>Nevyplňujte toto pole</span><label>Surname<input type="text" name="surname" value="" autocomplete="off" tabindex="-1" /></label></span>
+</div></div><div class="form-group submit-wrapper"><button type="submit" class="btn btn-primary" data-testid="buttonSubmit">Přihlásit se</button></div><p class="alternative-links"><a href="/registrace/" data-testid="signup" rel="nofollow">Nová registrace</a><a href="/klient/zapomenute-heslo/" rel="nofollow">Zapomenuté heslo</a></p><div class="social-login-buttons"><div class="social-login-buttons-divider"><span>nebo</span></div><div class="form-group"><a href="/action/Social/login/?provider=Facebook" class="login-btn facebook" rel="nofollow"><span class="login-facebook-icon"></span><strong>Přihlásit se přes Facebook</strong></a></div><div class="form-group"><a href="/action/Social/login/?provider=Google" class="login-btn google" rel="nofollow"><span class="login-google-icon"></span><strong>Přihlásit se přes Google</strong></a></div></div></form>
+</div>                    </div>
+    </div>
+
+                <div id="cart-widget" class="user-action-cart popup-widget cart-widget loader-wrapper" data-testid="popupCartWidget" role="dialog" aria-hidden="true">
+            <div class="popup-widget-inner cart-widget-inner place-cart-here">
+                <div class="loader-overlay">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div><div class="top-navigation-bar" data-testid="topNavigationBar">
+
+    <div class="container">
+
+                            <div class="top-navigation-menu">
+                <ul class="top-navigation-bar-menu">
+                                            <li class="top-navigation-menu-item-39">
+                            <a href="/obchodni-podminky/" title="Obchodní podmínky">Obchodní podmínky</a>
+                        </li>
+                                    </ul>
+                <div class="top-navigation-menu-trigger">Více</div>
+                <ul class="top-navigation-bar-menu-helper"></ul>
+            </div>
+        
+        <div class="top-navigation-tools">
+                        <button class="top-nav-button top-nav-button-login toggle-window" type="button" data-target="login" aria-haspopup="dialog" aria-controls="login" aria-expanded="false" data-testid="signin"><span>Přihlášení</span></button>
+    <a href="/registrace/" class="top-nav-button top-nav-button-register" data-testid="headerSignup">Registrace</a>
+        </div>
+
+    </div>
+
+</div>
+<header id="header">
+        <div class="header-top">
+            <div class="container navigation-wrapper header-top-wrapper">
+                <div class="site-name"><a href="/" data-testid="linkWebsiteLogo"><img src="/user/logos/woox_logo_200_px.png" alt="Woox" fetchpriority="low" /></a></div>
+                <div class="search" itemscope itemtype="https://schema.org/WebSite">
+                    <meta itemprop="headline" content="Jít ven, dívat se, naslouchat, vnímat. Nepřemýšlet, co si vzít na sebe, když není jasno a bezvětří. A i když je."/><meta itemprop="url" content="https://www.woox.cz"/><meta itemprop="text" content="Jít ven, dívat se, naslouchat, vnímat.Nepřemýšlet, co si vzít na sebe,když není jasno a bezvětří. A i když je. Oblečení, které tvoříme, funguje v každém počasí a všude. Jsme nadšení ze tvého nadšení, když se vrátíš z cesty kolem světa a potřebuješ nám říct, jak skvěle ti fungovala tvá jediná bunda. Ta a všechno..."/>                    <form action="/action/ProductSearch/prepareString/"
+    method="post"
+    id="formSearchForm"
+    class="search-form compact-form js-search-main"
+    itemprop="potentialAction"
+    itemscope
+    itemtype="https://schema.org/SearchAction"
+    data-testid="searchForm"
+    novalidate>
+    <fieldset>
+        <meta itemprop="target"
+            content="https://www.woox.cz/vyhledavani/?string={string}"/>
+        <input type="hidden" name="language" value="cs"/>
+        
+            
+    <span class="search-input-icon" aria-hidden="true"></span>
+
+<input
+    type="search"
+    name="string"
+        class="query-input form-control search-input js-search-input"
+    placeholder="Napište, co hledáte"
+    autocomplete="off"
+    required
+    itemprop="query-input"
+    aria-label="Vyhledávání"
+    data-testid="searchInput"
+>
+            <button type="submit" class="btn btn-default search-button" data-testid="searchBtn">Hledat</button>
+        
+    </fieldset>
+</form>
+                </div>
+                <div class="navigation-buttons">
+                    <a href="#" class="toggle-window" data-target="search" data-testid="linkSearchIcon"><span class="sr-only">Hledat</span></a>
+                        
+    <a href="/kosik/" class="btn btn-icon toggle-window cart-count" data-target="cart" data-hover="true" data-redirect="true" data-testid="headerCart" rel="nofollow" aria-haspopup="dialog" aria-expanded="false" aria-controls="cart-widget">
+        
+                <span class="sr-only">Nákupní košík</span>
+        
+            <span class="cart-price visible-lg-inline-block" data-testid="headerCartPrice">
+                                    Prázdný košík                            </span>
+        
+    
+            </a>
+                    <a href="#" class="toggle-window" data-target="navigation" data-testid="hamburgerMenu" aria-label="Menu"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container navigation-wrapper header-bottom-wrapper js-navigation-container">
+                <nav id="navigation" aria-label="Hlavní menu" data-collapsible="true"><div class="navigation-in menu"><ul class="menu-level-1" role="menubar" data-testid="headerMenuItems"><li class="menu-item-1641 ext" role="none"><a href="/zeny/" data-testid="headerMenuItem" role="menuitem" aria-haspopup="true" aria-expanded="false"><b>Ženy</b><span class="submenu-arrow"></span></a><ul class="menu-level-2" aria-label="Ženy" tabindex="-1" role="menu"><li class="menu-item-1683 has-third-level" role="none"><div class="menu-no-image"><a href="/obleceni-zeny/" data-testid="headerMenuItem" role="menuitem"><span>Oblečení</span></a>
+                                                    <ul class="menu-level-3" role="menu">
+                                                                    <li class="menu-item-1758" role="none">
+                                        <a href="/bundy-a-kabaty-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Bundy a kabáty</a>,                                    </li>
+                                                                    <li class="menu-item-1782" role="none">
+                                        <a href="/trika-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Trika</a>,                                    </li>
+                                                                    <li class="menu-item-1764" role="none">
+                                        <a href="/kosile-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Košile</a>,                                    </li>
+                                                                    <li class="menu-item-1776" role="none">
+                                        <a href="/svetry-mikiny-a-saka-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Svetry, mikiny a saka</a>,                                    </li>
+                                                                    <li class="menu-item-1773" role="none">
+                                        <a href="/saty-a-sukne-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Šaty a sukně</a>,                                    </li>
+                                                                    <li class="menu-item-1767" role="none">
+                                        <a href="/kalhoty-a-kratasy-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Kalhoty a kraťasy</a>,                                    </li>
+                                                                    <li class="menu-item-1779" role="none">
+                                        <a href="/boty-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Boty</a>,                                    </li>
+                                                                    <li class="menu-item-1770" role="none">
+                                        <a href="/ponozky-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Ponožky</a>,                                    </li>
+                                                                    <li class="menu-item-1761" role="none">
+                                        <a href="/cepice-a-rukavice-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Čepice a rukavice</a>                                    </li>
+                                                            </ul>
+                        </div></li><li class="menu-item-1677 has-third-level" role="none"><div class="menu-no-image"><a href="/kozedilna-zeny/" data-testid="headerMenuItem" role="menuitem"><span>Kožedílna</span></a>
+                                                    <ul class="menu-level-3" role="menu">
+                                                                    <li class="menu-item-1749" role="none">
+                                        <a href="/kabelky-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Kabelky</a>,                                    </li>
+                                                                    <li class="menu-item-1752" role="none">
+                                        <a href="/pasky-a-naramky-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Pásky a náramky</a>,                                    </li>
+                                                                    <li class="menu-item-1755" role="none">
+                                        <a href="/penezenky-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Peněženky</a>                                    </li>
+                                                            </ul>
+                        </div></li><li class="menu-item-1674 has-third-level" role="none"><div class="menu-no-image"><a href="/doplnky-zeny/" data-testid="headerMenuItem" role="menuitem"><span>Doplňky</span></a>
+                                                    <ul class="menu-level-3" role="menu">
+                                                                    <li class="menu-item-1743" role="none">
+                                        <a href="/batohy-a-tasky-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Batohy a tašky</a>,                                    </li>
+                                                                    <li class="menu-item-1746" role="none">
+                                        <a href="/bryle-zeny/" data-testid="headerMenuItem" role="menuitem">
+                                            Brýle</a>                                    </li>
+                                                            </ul>
+                        </div></li><li class="menu-item-1680" role="none"><div class="menu-no-image"><a href="/novinky-zeny/" data-testid="headerMenuItem" role="menuitem"><span>Novinky</span></a>
+                        </div></li></ul></li>
+<li class="menu-item-1635 ext" role="none"><a href="/muzi/" data-testid="headerMenuItem" role="menuitem" aria-haspopup="true" aria-expanded="false"><b>Muži</b><span class="submenu-arrow"></span></a><ul class="menu-level-2" aria-label="Muži" tabindex="-1" role="menu"><li class="menu-item-1665 has-third-level" role="none"><div class="menu-no-image"><a href="/obleceni-muzi/" data-testid="headerMenuItem" role="menuitem"><span>Oblečení</span></a>
+                                                    <ul class="menu-level-3" role="menu">
+                                                                    <li class="menu-item-1698" role="none">
+                                        <a href="/bundy-a-kabaty-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Bundy a kabáty</a>,                                    </li>
+                                                                    <li class="menu-item-1719" role="none">
+                                        <a href="/trika-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Trika</a>,                                    </li>
+                                                                    <li class="menu-item-1713" role="none">
+                                        <a href="/svetry-a-mikiny-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Svetry a mikiny</a>,                                    </li>
+                                                                    <li class="menu-item-1704" role="none">
+                                        <a href="/kosile-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Košile</a>,                                    </li>
+                                                                    <li class="menu-item-1707" role="none">
+                                        <a href="/kalhoty-a-kratasy-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Kalhoty a kraťasy</a>,                                    </li>
+                                                                    <li class="menu-item-1716" role="none">
+                                        <a href="/boty-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Boty</a>,                                    </li>
+                                                                    <li class="menu-item-1710" role="none">
+                                        <a href="/ponozky-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Ponožky</a>,                                    </li>
+                                                                    <li class="menu-item-1701" role="none">
+                                        <a href="/cepice-a-rukavice-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Čepice a rukavice</a>                                    </li>
+                                                            </ul>
+                        </div></li><li class="menu-item-1659 has-third-level" role="none"><div class="menu-no-image"><a href="/doplnky-muzi/" data-testid="headerMenuItem" role="menuitem"><span>Doplňky</span></a>
+                                                    <ul class="menu-level-3" role="menu">
+                                                                    <li class="menu-item-1686" role="none">
+                                        <a href="/batohy-a-tasky-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Batohy a tašky</a>,                                    </li>
+                                                                    <li class="menu-item-1692" role="none">
+                                        <a href="/pasky-a-naramky-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Pásky a náramky</a>,                                    </li>
+                                                                    <li class="menu-item-1689" role="none">
+                                        <a href="/bryle-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Brýle</a>,                                    </li>
+                                                                    <li class="menu-item-1695" role="none">
+                                        <a href="/penezenky-muzi/" data-testid="headerMenuItem" role="menuitem">
+                                            Peněženky</a>                                    </li>
+                                                            </ul>
+                        </div></li><li class="menu-item-1662" role="none"><div class="menu-no-image"><a href="/novinky-muzi/" data-testid="headerMenuItem" role="menuitem"><span>Novinky</span></a>
+                        </div></li></ul></li>
+<li class="menu-item-2400" role="none"><a href="/woox-klub/" data-testid="headerMenuItem" role="menuitem" aria-expanded="false"><b>WOOX Klub</b></a></li>
+<li class="menu-item-3410" role="none"><a href="/wooxers/" data-testid="headerMenuItem" role="menuitem" aria-expanded="false"><b>#wooxers</b></a></li>
+<li class="appended-category menu-item-1638 ext" role="none"><a href="/unisex/" role="menuitem" aria-haspopup="true" aria-expanded="false"><b>Unisex</b><span class="submenu-arrow"></span></a><ul class="menu-level-2 menu-level-2-appended" role="menu"><li class="menu-item-1668" role="none"><a href="/doplnky-unisex/" data-testid="headerMenuItem" role="menuitem"><span>Doplňky</span></a></li><li class="menu-item-3373" role="none"><a href="/darkove-seky/" data-testid="headerMenuItem" role="menuitem"><span>Dárkové šeky</span></a></li></ul></li></ul>
+    <ul class="navigationActions" role="menu">
+                            <li role="none">
+                                    <a href="/login/?backTo=%2F" rel="nofollow" data-testid="signin" role="menuitem"><span>Přihlášení</span></a>
+                            </li>
+                        </ul>
+</div><span class="navigation-close"></span></nav><div class="menu-helper" data-testid="hamburgerMenu"><span>Více</span></div>
+            </div>
+        </div>
+    </header><!-- / header -->
+
+
+<div id="content-wrapper" class="container content-wrapper">
+            
+                    
+        <div class="content-wrapper-in">
+                        <main id="content" class="content wide">
+                                    <h1 class="sr-only">Jít ven, dívat se, naslouchat, vnímat. Nepřemýšlet, co si vzít na sebe</h1>
+                                                    
+
+
+            <div class="row banners-row">
+                <div class="col-sm-8">
+                        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-testid="carousel">
+        <div class="carousel-inner">
+                            <div class="item active">
+                    <a href="/" data-ec-promo-id="198" ><img src="/user/banners/261006_woox_zima_26_na_sklade_web_banner_carous_hp_desktop_2167x774_01.jpg?6acf467b" fetchpriority="high" alt="Zimní funkční bundy a kabáty" width="2167" height="774" /><span class="extended-banner-texts"><span class="extended-banner-title">Zimní funkční bundy a kabáty</span><span class="extended-banner-text"><div class="flex-center">
+<a class="btn btn-slider" href="/zimni-funkcni-bundy-a-kabaty-zeny/" data-target="/zimni-funkcni-bundy-a-kabaty-zeny/">ženy</a>
+<a class="btn btn-slider" href="/zimni-funkcni-bundy-a-kabaty-muzi/" data-target="/zimni-funkcni-bundy-a-kabaty-muzi/">muži</a>
+</div></span></span></a>
+                </div>
+                    </div>
+
+            </div>
+                </div>
+                            <div class="col-sm-4">                    <div class="next-to-carousel-banners" data-testid="gridTopBanners">
+                    <div class="banner-wrapper" data-testid="bannerTop">
+                <span data-ec-promo-id="123"><div class="product-woox-banner">
+<div class="sale-banner">
+<div class="banner-wrap">
+<h4>Ve<br><strong>WOOX<br>KLUBU</strong><br>se<br>nakupuje<br>za půlku</h4>
+<span class="btn btn-white">Chci se registrovat</span>
+</div>
+</div>
+</div></span>
+            </div>
+            </div>
+                </div>                    </div>
+    
+
+
+                        <div class="benefitBanner position--benefitHomepage">
+                                    <div class="benefitBanner__item"><div class="benefitBanner__content"><div class="benefitBanner__data"><div class="usp">
+  <div class="usp-item">
+    <span class="icon"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/icons/pres_200000.svg" alt="Přes 200.000 nadšených zákazníků"></span>
+    <p>Přes 200.000<br>nadšených zákazníků</p>
+  </div>
+  <div class="usp-item">
+    <span class="icon"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/icons/infinity.svg" alt="Neomezená doba na vrácení zboží"></span>
+    <p>Neomezená doba<br>na vrácení zboží</p>
+  </div>
+  <div class="usp-item">
+    <span class="icon"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/icons/shipping.svg" alt="Poštovné zpět zdarma"></span>
+    <p>Poštovné zpět <br>zdarma</p>
+  </div>
+  <div class="usp-item">
+    <span class="icon"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/icons/diamond.svg" alt="Nejlepší poměr ceny a kvality"></span>
+    <p>Nejlepší poměr<br>ceny a kvality</p>
+  </div>
+</div></div></div></div>
+                        </div>
+
+                                                
+        
+            
+
+<div class="row banners-content body-banners">
+                    <div class="col-sm-4">            <div class="banner-wrapper">
+                <span data-ec-promo-id="120"><div class="banner-wrap" data-index="1"><img src="/user/documents/upload/bannery/03 DRUHAsance WEB BANNERS HomePage_Banner STRED HP DESKTOP 1920x1005 01.jpg" alt="#DRUHÁšance" width="1920" height="1005">
+<span class="extended-banner-texts"><span class="extended-banner-text"><h4>Ve WOOX klubu <br> je už <b>přes 200.000 nadšených zákazníků</b></h4>
+<!-- <p hidden>se slevou - 70 %</p> -->
+<p>Chceme tě vidět ve městě, v lese, v dešti, mlze, v ranním slunci.</p>
+</br>
+<a href="https://www.woox.cz/wooxers//?utm_source=woox&utm_medium=HP_middle_banner&utm_campaign=wooxers" class="btn btn-primary" target="_blank">#wooxers</a></span></span></div></span>
+            </div>
+        </div>                    <div class="col-sm-8">            <div class="banner-wrapper">
+                <span data-ec-promo-id="132"><div class="banner-wrap" data-index="1"><img src="https://cdn.myshoptet.com/usr/www.woox.sk/user/documents/upload/bannery/banner1.webp" alt="ZRUŠILI JSME VELKOOBCHOD!" width="1920" height="1005"><span class="extended-banner-texts"><span class="extended-banner-text"><h4>ZRUŠILI JSME<br>VELKOOBCHOD!</h4>
+<p>Náš partner jsi teď ty.<br>A je toho ještě hodně,<br>co ti chceme říct.</p>
+<a href="/woox-klub/" class="btn btn-primary">Dozvedět se víc</a>
+</span></span></div></span>
+            </div>
+        </div>    </div>
+        
+        
+    
+                                                <div class="footer-banners row banner-wrapper banners-row">
+                    <div class="footer-banner col-sm-12 col-lg-3">
+                <span data-ec-promo-id="210"><ul class="mime-categories-banner">
+  <li>
+    <img src="/user/documents/upload/categories/HP_sandale.jpg" alt="Sandále a žabky">
+    <p>Sandále a žabky</p>
+    <a href="/sandaly-a-zabky-zeny/">ženy</a>
+    <a href="/sandaly-a-zabky-muzi/">muži</a>
+  </li>
+  <li>
+    <img src="/user/documents/upload/categories/HP_saty.jpg" alt="Šaty a sukně">
+    <p>Šaty a sukně</p>
+    <a href="/saty-a-sukne-zeny/">ženy</a>
+  </li>
+  <li>
+    <img src="/user/documents/upload/categories/HP_trika.jpg" alt="Trika">
+    <p>Trika</p>
+    <a href="/trika-zeny/">ženy</a>
+    <a href="/trika-muzi/">muži</a>
+  </li>
+  <li>
+    <img src="/user/documents/upload/categories/HP_vetrovky.jpg" alt="Funkční bundy">
+    <p>Funkční bundy</p>
+    <a href="/lehke-funkcni-bundy-a-kabaty-zeny/">ženy</a>
+    <a href="/lehke-funkcni-bundy-a-kabaty-muzi/">muži</a>
+  </li>
+</ul>
+
+<!--
+class="black"
+--></span>
+            </div>
+                    <div class="footer-banner col-sm-12 col-lg-3">
+                <span data-ec-promo-id="206"><div class="h4 homepage-group-title inspirator-title">WOOX looks</div>
+<div id="inspirator" data-api-url="https://aplikace.mimedigital.cz/images-collections-51-f3pjhzhwhfgaf0g.json"></div></span>
+            </div>
+                    <div class="footer-banner col-sm-12 col-lg-3">
+                <span data-ec-promo-id="129"><div class="usp">
+  <div class="usp-item">
+    <span class="icon"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/icons/diamond.svg" alt="Nejlepší poměr ceny a kvality"></span>
+    <p>Nejlepší poměr ceny a kvality</p>
+  </div>
+  <div class="usp-item">
+    <span class="icon"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/icons/shipping.svg" alt="Poštovné zpět zdarma"></span>
+    <p>Poštovné zpět <br />zdarma</p>
+  </div>
+  <div class="usp-item">
+    <span class="icon"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/icons/infinity.svg" alt="Neomezená doba na vrácení"></span>
+    <p>Neomezená doba na vrácení</p>
+  </div>
+</div></span>
+            </div>
+                    <div class="footer-banner col-sm-12 col-lg-3">
+                <span data-ec-promo-id="194"><div id="js-flowbox-flow"></div>
+<script>
+	window.flowbox('init', {
+		container: '#js-flowbox-flow',
+		key: '7I7kIijrRYm8UKzN_hxKew',
+		locale: 'cs-CZ',
+	});
+</script></span>
+            </div>
+            </div>
+    <div class="welcome-wrapper container-narrow">
+        <div class="welcome">
+                            <div class="h1" data-testid="eshopHeader">Jít ven, dívat se, naslouchat, vnímat. Nepřemýšlet, co si vzít na...</div>
+                        <div>
+                                    <div class="about">
+<div class="image"><img src="https://cdn.myshoptet.com/usr/540778.myshoptet.com/user/documents/upload/about.webp" alt="Jít ven, dívat se, naslouchat, vnímat." /></div>
+<div class="content">
+<div>
+<h2>Jít ven, dívat se, naslouchat, vnímat.<br />Nepřemýšlet, co si vzít na sebe,<br />když není jasno a bezvětří. A i když je.</h2>
+<p>Oblečení, které tvoříme, funguje v každém počasí a všude. Jsme nadšení ze tvého nadšení, když se vrátíš z cesty kolem světa a potřebuješ nám říct, jak skvěle ti fungovala tvá jediná bunda. Ta a všechno ostatní nakoupené za polovinu reálné hodnoty, bez prostředníků, distributorů a jejich marží.</p>
+<p>Pěstovat spokojenost. A tvořit společně lepší dílo.<br />O to nám jde, to je Woox.</p>
+<a class="btn btn-primary" href="/woox-klub/">Zjisti víc</a></div>
+</div>
+</div>
+                            </div>
+        </div>
+    </div>
+    <div class="container-narrow">
+            </div>
+
+                            </main>
+        </div>
+        
+                    
+        
+</div>
+        
+        
+                            <footer id="footer" class="footer">
+                    <h2 class="sr-only">Zápatí</h2>
+                    
+                                                                <div class="container footer-rows">
+                            
+                                                
+
+
+<div class="row custom-footer elements-many">
+                    
+        <div class="custom-footer__banner37 col-sm-6 col-lg-3">
+                            <div class="banner">
+                    <div class="banner-wrapper">
+                        <span data-ec-promo-id="185"><div id="aktualita-banner">
+</div></span>
+                    </div>
+                </div>
+                    </div>
+                    
+        <div class="custom-footer__banner9 col-sm-6 col-lg-3">
+                            <div class="banner">
+                    <div class="banner-wrapper">
+                        <span data-ec-promo-id="19"><div class="container">
+  <div class="footer-contact">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <h3>Zákaznický opečovatel</h3>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <p class="contact-tel">
+          <a href="tel:+420 725 222 121">+420 725 222 121</a>
+          <span>Po&nbsp;–&nbsp;Pá: od 9.00 do 17.00 hod.</span>
+        </p>    
+      </div>
+    </div>
+    <ul class="footer-side-nav">
+      <li><a href="/cdn-cgi/l/email-protection#1871767e77586f777760367b62"><span class="__cf_email__" data-cfemail="2d44434b426d5a424255034e57">[email&#160;protected]</span></a></li>
+      <li><a href="/kontakty-a-prodejny/">Kontakt</a></li>
+    </ul>
+  </div>
+</div></span>
+                    </div>
+                </div>
+                    </div>
+                    
+        <div class="custom-footer__banner1 col-sm-6 col-lg-3">
+                            <div class="banner">
+                    <div class="banner-wrapper">
+                        <span data-ec-promo-id="11"><div class="ecomail-custom-newsletter">
+    <h2>Chci odebírat newsletter</h2>
+    <form action="https://aplikace-dev.mimedigital.cz/woox.ecomail/subscribe-newsletter" method="post" id="newsletter-ecomail" class="subscribe-ecomail">
+        <fieldset>
+            <div class="content">
+                <div class="input">
+                    <input type="email" name="email" class="form-control" placeholder="@" required="">
+                    <span class="show-tooltip question-tooltip" title="" data-original-title="Odeslaním souhlasíte se zpracovaním osobních údajů">i</span>
+                </div>
+                <div class="female">
+                    <button id="female" name="gender" class="form-sumbit">Žena</button>
+                </div>
+                <div class="male">
+                    <button id="male" name="gender" class="form-sumbit">Muž</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div></span>
+                    </div>
+                </div>
+                    </div>
+                    
+        <div class="custom-footer__banner2 col-sm-6 col-lg-3">
+                            <div class="banner">
+                    <div class="banner-wrapper">
+                        <span data-ec-promo-id="12"><div class="container">
+  <div class="footer-shop">
+    <h3>Kamenné prodejny a osobní odběr</h3>
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
+        <p><strong>Wooxusní Šatna - Praha</strong></p>
+        <p>Rašínovo nábřeží 385/54, Praha 
+        <p><a href="tel:+420775855578">+420 775 855 578</a></p>
+        <p>Po-Pá: 10:00 - 19:00<br />
+          So: 10:00 - 18:00<br />
+      
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <p><strong>Woox Krámek - Jeseník</strong></p>
+        <p>Školní 25, Jeseník 79001</p>
+        <p><a href="tel:+420725222125">+420 725 222 125</a></p>
+         <p>Po-Pá: 09:00 - 17:00<br />
+          So: 09:00 - 12:00
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <p><strong>Woox Továrna - Jeseník</strong></p>
+        <p>Bezručova 1371, Jeseník 79001</p>
+        <p><a href="tel:+420725222124">+420 725 222 124</a></p>
+        <p>Po-Pá: 09:00 - 17:00<br />
+          So: 09:00 - 12:00
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <p><strong>Woox POP UP - Ostrava</strong></p>
+        <p>Futurum, Novinářská 3178/6, Ostrava</p>
+        <p><a href="tel:+420778491740">+420 778 491 740</a></p>
+        <p>Po-Ne: 09:00 - 21:00</p>
+      </div>
+    </div>
+  </div>
+</div></span>
+                    </div>
+                </div>
+                    </div>
+                    
+        <div class="custom-footer__banner10 col-sm-6 col-lg-3">
+                            <div class="banner">
+                    <div class="banner-wrapper">
+                        <span data-ec-promo-id="20"><div class="container">
+  <div class="footer-info">
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
+        <h4>Informace</h4>
+        <ul class="footer-nav">
+          <li><a href="/kontakty-a-prodejny ">Kontakty a prodejny</a></li>
+          <li><a href="/doprava-a-platba">Doprava a platba</a></li>
+          <li><a href="/reklamace-a-vraceni/">Reklamace a vrácení</a></li>
+          <li><a href="/faq_povodne/">FAQ Povodně</a></li>
+          <li><a href="/povodne-2024/">Povodně 2024</a></li>
+          <!--    <li><a href="/faq/">FAQ</a></li> -->
+        </ul>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h4>Legislativní čtení</h4>
+        <ul class="footer-nav">
+          <li><a href="/obchodni-podminky/">Obchodní podmínky</a></li>
+          <li><a href="/wooxklub-podminky/">Wooxklub podmínky</a></li>
+          <li><a href="/ochrana-osobnich-udaju/">Ochrana osobních údajů</a></li>
+          <li><a href="#" class="js-cookies-settings" data-testid="cookiesSettings">Nastavit souhlasy s cookies</a></li>
+          <li><a href="/povinna-publicita/">Povinná publicita</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-md-3 footer-badge">
+        <ul class="footer-side-nav">
+          <li><a class="" href="https://www.woox.sk">Slovensko</a></li>
+        </ul>
+        <ul>
+          <li><img src="/user/documents/upload/bannery/footer/retino-cz.png" width="220" height="81"
+              alt="Retino - Woox"></li>
+          <li><img src="/user/documents/upload/bannery/footer/webtop-cz.svg" width="220" height="40"
+              alt="WebTop100 - Woox"></li>
+        </ul>
+      </div>
+      <!--
+      <div class="col-xs-12 col-md-3">
+        <h4>Zabava</h4>
+        <ul class="footer-nav">
+          <li><a href="/">Čeká se na podklady</a></li>
+          <li><a href="/">Čeká se na podklady</a></li>
+          <li><a href="/">Čeká se na podklady</a></li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+</div></span>
+                    </div>
+                </div>
+                    </div>
+                    
+        <div class="custom-footer__banner8 col-sm-6 col-lg-3">
+                            <div class="banner">
+                    <div class="banner-wrapper">
+                        <span data-ec-promo-id="18"><div class="reg-box">
+  <h1>Zaregistruj se a&nbsp;získej mnoho výhod</h1>
+  <div class="reg-benefits">
+    <p><span class="i-percent"></span>50% sleva na všechny produkty</p>
+    <p><span class="i-heart"></span>Vlastní wishlist</p>
+    <p><span class="i-box"></span>Sledování objednávky</p>
+  </div>
+</div></span>
+                    </div>
+                </div>
+                    </div>
+                    
+        <div class="custom-footer__banner7 col-sm-6 col-lg-3">
+                            <div class="banner">
+                    <div class="banner-wrapper">
+                        <span data-ec-promo-id="23"><div class="favorite-popup login">
+<div class="popup-wrap">
+<div class="top">
+<span class="close"></span>
+<div class="title">
+<h3 data-target="registrace" class="active">Registrace</h3>
+<span>|</span>
+<h3 data-target="prihlaseni">Přihlášení</h3>
+</div>
+</div>
+<div class="center">
+<div class="left registrace">
+<div class="reg-box">
+<h1>Zaregistruj se a získej mnoho výhod</h1>
+<div class="reg-benefits">
+<p><span class="i-percent"></span>50% sleva na všechny produkty</p>
+<p><span class="i-heart"></span>Vlastní wishlist</p>
+<p><span class="i-box"></span>Sledování objednávky</p>
+</div>
+</div>
+<div class="reg">
+    <div class="content-inner"><fieldset class="box box-bg-transparent register-soc co-box co-registration">
+        <h4>Registrovat se pře sociální sítě</h4>
+
+        <div class="form-group">
+        <a href="/action/Social/login/?provider=Facebook" class="login-btn facebook" rel="nofollow"><span class="login-facebook-icon"></span><strong>Registrovat se přes Facebook</strong></a>
+        </div>
+        <div class="form-group">
+        <a href="/action/Social/login/?provider=Google" class="login-btn google" rel="nofollow"><span class="login-google-icon"></span><strong>Registrovat se přes Google</strong></a>
+        </div>
+<p class="text-center">Při registraci přes sociální sítě si v zákaznickém účtě vytvořte heslo.</p>
+        </fieldset><div class="social-login-buttons-divider"><span>nebo</span></div>
+        <div class="h1">Registrace</div>
+        <form id="register-form" action="/action/Customer/Register/" method="post" class="csrf-enabled" data-testid="registrationForm">
+        <input type="hidden" name="defaultGroupRequiresFullProfile" value="0" id="defaultGroupRequiresFullProfile">
+        <input type="hidden" name="fromSocial" value="">
+        
+        <div class="row">
+        <div class="col-md-8">
+        <div class="co-box co-registration">
+        <fieldset class="box box-sm box-bg-default">
+        <h4>Osobní údaje</h4>
+        <div class="form-group js-validated-element-wrapper smart-label-wrapper">
+        <label for="email">
+        <span class="required-asterisk">Email</span>
+        </label>
+        <input type="email" value="" id="email" name="email" class="form-control js-validate js-validate-required" autocomplete="new-email">
+        </div>
+        <div class="form-group smart-label-wrapper js-validated-element-wrapper">
+        <label for="password"><span class="required-asterisk">Heslo</span></label>
+        <input type="password" value="" id="password" name="password" class="form-control js-validate js-validate-required" autocomplete="new-password">
+        </div>
+        <div class="form-group js-validated-element-wrapper smart-label-wrapper">
+        <label for="passwordAgain"><span class="required-asterisk">Heslo (kontrola)</span></label>
+        <input type="password" value="" id="passwordAgain" name="passwordAgain" class="form-control js-validate js-validate-required" autocomplete="new-passwordAgain">
+        </div>
+        </fieldset>
+<div id="additionalInformation" class="co-box co-registration js-hidden">
+<fieldset class="box box-sm box-bg-default">
+<input type="hidden" name="billCountryId" value="151">
+<h4 class="header-billing">Fakturační adresa</h4>
+<div id="company-info" class="js-hidden visible">
+<div class="form-group js-validated-element-wrapper smart-label-wrapper">
+<label for="companyId">
+IČO
+</label>
+<input type="text" value="" id="companyId" name="companyId" class="form-control js-validate js-validate-company-id" autocomplete="autocomplete-off" data-original-value="" data-original-autocomplete="off-companyId" data-pattern="^(\d{8}|\d{12})$">
+</div>
+<div class="form-group form-group-hasTooltip js-validated-element-wrapper smart-label-wrapper">
+<label for="vatId">
+IČ DPH (jen plátci DPH)
+</label>
+<input type="text" value="" id="vatId" name="vatId" class="form-control" placeholder="SK1234567890" aria-describedby="vatId-description" autocomplete="off-vatId">
+<span class="show-tooltip question-tooltip form-group-tooltip" title="" aria-hidden="true" data-original-title="Uvádějte jen v případě, že jste plátcem DPH. Vždy začíná dvěma písmenama - kódem státu. Anglicky - VAT number.">?</span>
+<span id="vatId-description" class="sr-only">Uvádějte jen v případě, že jste plátcem DPH. Vždy začíná dvěma písmenama - kódem státu. Anglicky - VAT number.</span>
+</div>
+<div class="form-group js-validated-element-wrapper smart-label-wrapper">
+<label for="billCompany">
+Názov spoločnosti
+</label>
+<input type="text" value="" id="billCompany" name="billCompany" class="form-control" autocomplete="organization">
+</div>
+</div>
+<div class="form-group js-validated-element-wrapper smart-label-wrapper">
+<label for="billFullName">
+<span class="required-asterisk">
+Jméno a příjmení
+</span>
+</label>
+<input type="text" value="" id="billFullName" name="billFullName" class="form-control" data-transform="uppercase-first" autocomplete="autocomplete-off" data-original-value="" data-original-autocomplete="name">
+<span class="no-display">Nevyplňujte toto pole:</span>
+<input type="text" name="surname" value="" class="no-display">
+</div>
+
+</fieldset>
+</div>
+        </div>
+        </div>
+ 
+        </div>
+        
+        
+        <fieldset>
+        <h4>Potvrzení</h4>
+        
+        <div class="form-group js-validated-element-wrapper consents consents-first">
+                <input type="hidden" name="consents[]" id="consents2" value="2" data-special-message="validatorConsent">
+                <label for="consents2" class="whole-width">
+                Jsem seznámen s <a href="/ochrana-osobnich-udaju/" target="_blank" rel="noopener noreferrer">zpracováním osobních údajů</a>
+                </label>
+                </div>
+
+
+
+        <div class="form-group submit-wrapper">
+        <p>
+        <input type="submit" value="Vytvořit účet" class="btn btn-secondary btn-text btn-login">
+        </p>
+        </div>
+        </fieldset>
+        </form>
+        </div>
+
+</div>
+</div>
+<div class="prihlaseni hide">
+
+    <div class="content-inner">
+        <div class="h1">Registrace</div>
+        <form action="/action/Customer/Login/" method="post" id="formLogin" class="csrf-enabled" data-testid="loginForm"><input type="hidden" name="referer" value=""><div class="form-group"><div class="input-wrapper email js-validated-element-wrapper no-label"><input type="email" name="email" class="form-control" placeholder="E-mailová adresa (napr. jan@novak.cz)" required=""></div></div><div class="form-group"><div class="input-wrapper password js-validated-element-wrapper no-label"><input type="password" name="password" class="form-control" placeholder="Heslo" required=""><span class="no-display">Nemůžete vyplnit toto pole</span><input type="text" name="surname" value="" class="no-display"></div></div><div class="form-group"><div class="login-wrapper"><button type="submit" class="btn btn-secondary btn-text btn-login">Přihlásit se</button><div class="password-helper"><a href="/registracia/" data-testid="signup" rel="nofollow">Nová registrace</a><a href="/klient/zapomenute-heslo/" rel="nofollow">Zapomenuté heslo</a></div></div></div><div class="social-login-buttons"><div class="social-login-buttons-divider"><span>nebo</span></div><div class="form-group"><a href="/action/Social/login/?provider=Facebook" class="login-btn facebook" rel="nofollow"><span class="login-facebook-icon"></span><strong>Přihlásit se přes Facebook</strong></a></div><div class="form-group"><a href="/action/Social/login/?provider=Google" class="login-btn google" rel="nofollow"><span class="login-google-icon"></span><strong>Přihlásit se přes Google</strong></a></div></div></form>
+        </div>
+</div>
+</div>
+<div class="bottom">
+<div class="registrace">
+<p class="login">Už máš svůj účet? <a class="" href="/login/">Přihlásit se</a></p>
+</div>
+<div class="prihlaseni hide">
+<h3>NOVÝ ZÁKAZNÍK?</h3>
+<a href="/registrace/" class="btn btn-default">Vytvořit si účet</a>
+</div>
+</div>
+</div>
+</div></span>
+                    </div>
+                </div>
+                    </div>
+    </div>
+                        </div>
+                                        
+            
+                    
+    <div class="footer-bottom">
+        <div class="container">
+            <span id="signature" style="display: inline-block !important; visibility: visible !important;"><a href="https://www.shoptetpremium.cz/?utm_source=footer&utm_medium=link&utm_campaign=create_by_shoptet" class="image" target="_blank"><img src="data:image/svg+xml,%3Csvg%20width%3D%2217%22%20height%3D%2217%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="/cms/img/shoptetPremiumLogo.svg" width="17" height="17" alt="Shoptet Premium" class="vam" fetchpriority="low" /></a><a href="https://www.shoptetpremium.cz/?utm_source=footer&utm_medium=link&utm_campaign=create_by_shoptet" class="title" target="_blank">Vytvořil Shoptet Premium</a></span>
+            <span class="copyright" data-testid="textCopyright">
+                Copyright 2026 <strong>Woox</strong>. Všechna práva vyhrazena.                            </span>
+        </div>
+    </div>
+
+                    
+                                            
+                </footer>
+                <!-- / footer -->
+                    
+        </div>
+        <!-- / overall-wrapper -->
+
+                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>var shoptet = shoptet || {};shoptet.abilities = {"about":{"generation":3,"id":"13"},"config":{"category":{"product":{"image_size":"detail"}},"navigation_breakpoint":767,"number_of_active_related_products":4,"product_slider":{"autoplay":false,"autoplay_speed":3000,"loop":true,"navigation":true,"pagination":true,"shadow_size":10}},"elements":{"recapitulation_in_checkout":true},"feature":{"directional_thumbnails":false,"extended_ajax_cart":false,"extended_search_whisperer":true,"fixed_header":false,"images_in_menu":true,"product_slider":true,"simple_ajax_cart":true,"smart_labels":true,"tabs_accordion":true,"tabs_responsive":true,"top_navigation_menu":true,"user_action_fullscreen":false}};shoptet.design = {"template":{"name":"Disco","colorVariant":"13-one"},"layout":{"homepage":"catalog4","subPage":"catalog4","productDetail":"catalog4"},"colorScheme":{"conversionColor":"#000000","conversionColorHover":"#000000","color1":"#000000","color2":"#000000","color3":"#000000","color4":"#000000"},"fonts":{"heading":"Nunito","text":"Nunito"},"header":{"backgroundImage":"https:\/\/www.woox.czdata:image\/gif;base64,R0lGODlhAQABAIAAAAAAAP\/\/\/yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","image":null,"logo":"https:\/\/www.woox.czuser\/logos\/woox_logo_200_px.png","color":"#ffffff"},"background":{"enabled":false,"color":null,"image":null}};shoptet.config = {};shoptet.events = {};shoptet.runtime = {};shoptet.content = shoptet.content || {};shoptet.updates = {};shoptet.messages = [];shoptet.messages['lightboxImg'] = "Obrázek";shoptet.messages['lightboxOf'] = "z";shoptet.messages['more'] = "Více";shoptet.messages['cancel'] = "Zrušit";shoptet.messages['removedItem'] = "Položka byla odstraněna z košíku.";shoptet.messages['discountCouponWarning'] = "Zapomněli jste uplatnit slevový kupón. Pro pokračování jej uplatněte pomocí tlačítka vedle vstupního pole, nebo jej smažte.";shoptet.messages['charsNeeded'] = "Prosím, použijte minimálně 3 znaky!";shoptet.messages['invalidCompanyId'] = "Neplané IČ, povoleny jsou pouze číslice";shoptet.messages['needHelp'] = "Potřebujete pomoc?";shoptet.messages['showContacts'] = "Zobrazit kontakty";shoptet.messages['hideContacts'] = "Skrýt kontakty";shoptet.messages['ajaxError'] = "Došlo k chybě; obnovte prosím stránku a zkuste to znovu.";shoptet.messages['variantWarning'] = "Zvolte prosím variantu produktu.";shoptet.messages['chooseVariant'] = "Zvolte variantu";shoptet.messages['unavailableVariant'] = "Tato varianta není dostupná a není možné ji objednat.";shoptet.messages['withVat'] = "včetně DPH";shoptet.messages['withoutVat'] = "bez DPH";shoptet.messages['toCart'] = "Do košíku";shoptet.messages['emptyCart'] = "Prázdný košík";shoptet.messages['change'] = "Změnit";shoptet.messages['chosenBranch'] = "Zvolená pobočka";shoptet.messages['validatorRequired'] = "Povinné pole";shoptet.messages['validatorEmail'] = "Prosím vložte platnou e-mailovou adresu";shoptet.messages['validatorUrl'] = "Prosím vložte platnou URL adresu";shoptet.messages['validatorDate'] = "Prosím vložte platné datum";shoptet.messages['validatorNumber'] = "Vložte číslo";shoptet.messages['validatorDigits'] = "Prosím vložte pouze číslice";shoptet.messages['validatorCheckbox'] = "Zadejte prosím všechna povinná pole";shoptet.messages['validatorConsent'] = "Bez souhlasu nelze odeslat.";shoptet.messages['validatorPassword'] = "Hesla se neshodují";shoptet.messages['validatorInvalidPhoneNumber'] = "Vyplňte prosím platné telefonní číslo bez předvolby.";shoptet.messages['validatorInvalidPhoneNumberSuggestedRegion'] = "Neplatné číslo — navržený region: %1";shoptet.messages['validatorInvalidCompanyId'] = "Neplatné IČ, musí být ve tvaru jako %1";shoptet.messages['validatorFullName'] = "Nezapomněli jste příjmení?";shoptet.messages['validatorStreet'] = "Zadejte prosím ulici bez čísla domu";shoptet.messages['validatorHouseNumber'] = "Prosím zadejte správné číslo domu";shoptet.messages['validatorZipCode'] = "Zadané PSČ neodpovídá zvolené zemi";shoptet.messages['validatorShortPhoneNumber'] = "Telefonní číslo musí mít min. 8 znaků";shoptet.messages['choose-personal-collection'] = "Prosím vyberte místo doručení u osobního odběru, není zvoleno.";shoptet.messages['choose-external-shipping'] = "Upřesněte prosím vybraný způsob dopravy";shoptet.messages['choose-ceska-posta'] = "Pobočka České Pošty není určena, zvolte prosím některou";shoptet.messages['choose-hupostPostaPont'] = "Pobočka Maďarské pošty není vybrána, zvolte prosím nějakou";shoptet.messages['choose-postSk'] = "Pobočka Slovenské pošty není zvolena, vyberte prosím některou";shoptet.messages['choose-ulozenka'] = "Pobočka Uloženky nebyla zvolena, prosím vyberte některou";shoptet.messages['choose-zasilkovna'] = "Pobočka Zásilkovny nebyla zvolena, prosím vyberte některou";shoptet.messages['choose-ppl-cz'] = "Pobočka PPL ParcelShop nebyla vybrána, vyberte prosím jednu";shoptet.messages['choose-glsCz'] = "Pobočka GLS ParcelShop nebyla zvolena, prosím vyberte některou";shoptet.messages['choose-dpd-cz'] = "Ani jedna z poboček služby DPD Parcel Shop nebyla zvolená, prosím vyberte si jednu z možností.";shoptet.messages['watchdogType'] = "Je zapotřebí vybrat jednu z možností u sledování produktu.";shoptet.messages['watchdog-consent-required'] = "Musíte zaškrtnout všechny povinné souhlasy";shoptet.messages['watchdogEmailEmpty'] = "Prosím vyplňte e-mail";shoptet.messages['privacyPolicy'] = 'Musíte souhlasit s ochranou osobních údajů';shoptet.messages['amountChanged'] = '(množství bylo změněno)';shoptet.messages['unavailableCombination'] = 'Není k dispozici v této kombinaci';shoptet.messages['specifyShippingMethod'] = 'Upřesněte dopravu';shoptet.messages['PIScountryOptionMoreBanks'] = 'Možnost platby z %1 bank';shoptet.messages['PIScountryOptionOneBank'] = 'Možnost platby z 1 banky';shoptet.messages['PIScurrencyInfoCZK'] = 'V měně CZK lze zaplatit pouze prostřednictvím českých bank.';shoptet.messages['PIScurrencyInfoHUF'] = 'V měně HUF lze zaplatit pouze prostřednictvím maďarských bank.';shoptet.messages['validatorVatIdWaiting'] = "Ověřujeme";shoptet.messages['validatorVatIdValid'] = "Ověřeno";shoptet.messages['validatorVatIdInvalid'] = "DIČ se nepodařilo ověřit, i přesto můžete objednávku dokončit";shoptet.messages['validatorVatIdInvalidOrderForbid'] = "Zadané DIČ nelze nyní ověřit, protože služba ověřování je dočasně nedostupná. Zkuste opakovat zadání později, nebo DIČ vymažte s vaši objednávku dokončete v režimu OSS. Případně kontaktujte prodejce.";shoptet.messages['validatorVatIdInvalidOssRegime'] = "Zadané DIČ nemůže být ověřeno, protože služba ověřování je dočasně nedostupná. Vaše objednávka bude dokončena v režimu OSS. Případně kontaktujte prodejce.";shoptet.messages['previous'] = "Předchozí";shoptet.messages['next'] = "Následující";shoptet.messages['close'] = "Zavřít";shoptet.messages['imageWithoutAlt'] = "Tento obrázek nemá popisek";shoptet.messages['newQuantity'] = "Nové množství:";shoptet.messages['currentQuantity'] = "Aktuální množství:";shoptet.messages['quantityRange'] = "Prosím vložte číslo v rozmezí %1 a %2";shoptet.messages['skipped'] = "Přeskočeno";shoptet.messages.validator = {};shoptet.messages.validator.nameRequired = "Zadejte jméno a příjmení.";shoptet.messages.validator.fullNameRequired = shoptet.messages.validator.nameRequired;shoptet.messages.validator.emailRequired = "Zadejte e-mailovou adresu (např. jan.novak@example.com).";shoptet.messages.validator.phoneRequired = "Zadejte telefonní číslo.";shoptet.messages.validator.messageRequired = "Napište komentář.";shoptet.messages.validator.descriptionRequired = shoptet.messages.validator.messageRequired;shoptet.messages.validator.captchaRequired = "Vyplňte bezpečnostní kontrolu.";shoptet.messages.validator.consentsRequired = "Potvrďte svůj souhlas.";shoptet.messages.validator.scoreRequired = "Zadejte počet hvězdiček.";shoptet.messages.validator.passwordRequired = "Zadejte heslo, které bude obsahovat min. 4 znaky.";shoptet.messages.validator.passwordAgainRequired = shoptet.messages.validator.passwordRequired;shoptet.messages.validator.currentPasswordRequired = shoptet.messages.validator.passwordRequired;shoptet.messages.validator.birthdateRequired = "Zadejte datum narození.";shoptet.messages.validator.billFullNameRequired = "Zadejte jméno a příjmení.";shoptet.messages.validator.deliveryFullNameRequired = shoptet.messages.validator.billFullNameRequired;shoptet.messages.validator.billStreetRequired = "Zadejte název ulice.";shoptet.messages.validator.deliveryStreetRequired = shoptet.messages.validator.billStreetRequired;shoptet.messages.validator.billHouseNumberRequired = "Zadejte číslo domu.";shoptet.messages.validator.deliveryHouseNumberRequired = shoptet.messages.validator.billHouseNumberRequired;shoptet.messages.validator.billZipRequired = "Zadejte PSČ.";shoptet.messages.validator.deliveryZipRequired = shoptet.messages.validator.billZipRequired;shoptet.messages.validator.billCityRequired = "Zadejte název města.";shoptet.messages.validator.deliveryCityRequired = shoptet.messages.validator.billCityRequired;shoptet.messages.validator.billDistrictRequired = "Zadejte název okresu.";shoptet.messages.validator.deliveryDistrictRequired = shoptet.messages.validator.billDistrictRequired;shoptet.messages.validator.deliveryCompanyRequired = "Zadejte název společnosti.";shoptet.messages.validator.companyIdRequired = "Zadejte IČ.";shoptet.messages.validator.vatIdRequired = "Zadejte DIČ.";shoptet.messages.validator.identificationNumberRequired = "Zadejte identifikační číslo.";shoptet.messages.validator.billCompanyRequired = "Zadejte název společnosti.";shoptet.messages.validator.discountCouponCodeRequired = "Zadejte slevový kupón";shoptet.messages['loading'] = "Načítám…";shoptet.messages['stillLoading'] = "Stále načítám…";shoptet.messages['loadingFailed'] = "Načtení se nezdařilo. Zkuste to znovu.";shoptet.messages['productsSorted'] = "Produkty seřazeny.";shoptet.messages['formLoadingFailed'] = "Formulář se nepodařilo načíst. Zkuste to prosím znovu.";shoptet.messages.moreInfo = "Více informací";shoptet.config.orderingProcess = {active: false,step: false};shoptet.config.documentsRounding = '3';shoptet.config.documentPriceDecimalPlaces = '0';shoptet.config.thousandSeparator = ' ';shoptet.config.decSeparator = ',';shoptet.config.decPlaces = '0';shoptet.config.decPlacesSystemDefault = '2';shoptet.config.currencySymbol = 'Kč';shoptet.config.currencySymbolLeft = '0';shoptet.config.defaultVatIncluded = 1;shoptet.config.defaultProductMaxAmount = 9999;shoptet.config.inStockAvailabilityId = -1;shoptet.config.defaultProductMaxAmount = 9999;shoptet.config.inStockAvailabilityId = -1;shoptet.config.cartActionUrl = '/action/Cart';shoptet.config.advancedOrderUrl = '/action/Cart/GetExtendedOrder/';shoptet.config.cartContentUrl = '/action/Cart/GetCartContent/';shoptet.config.stockAmountUrl = '/action/ProductStockAmount/';shoptet.config.addToCartUrl = '/action/Cart/addCartItem/';shoptet.config.isDeliveryIntoBoxRestrictedUrl = '/action/Cart/isDeliveryIntoBoxRestricted/';shoptet.config.removeFromCartUrl = '/action/Cart/deleteCartItem/';shoptet.config.updateCartUrl = '/action/Cart/setCartItemAmount/';shoptet.config.addDiscountCouponUrl = '/action/Cart/addDiscountCoupon/';shoptet.config.setSelectedGiftUrl = '/action/Cart/setSelectedGift/';shoptet.config.rateProduct = '/action/ProductDetail/RateProduct/';shoptet.config.customerDataUrl = '/action/OrderingProcess/step2CustomerAjax/';shoptet.config.registerUrl = '/registrace/';shoptet.config.agreementCookieName = 'site-agreement';shoptet.config.cookiesConsentUrl = '/action/CustomerCookieConsent/';shoptet.config.cookiesConsentIsActive = 1;shoptet.config.cookiesConsentOptAnalytics = 'analytics';shoptet.config.cookiesConsentOptPersonalisation = 'personalisation';shoptet.config.cookiesConsentOptNone = 'none';shoptet.config.cookiesConsentRefuseDuration = 7;shoptet.config.cookiesConsentName = 'CookiesConsent';shoptet.config.agreementCookieExpire = 30;shoptet.config.cookiesConsentSettingsUrl = '/cookies-settings/';shoptet.config.fonts = {"google":{"attributes":"300,400,700,900:latin-ext","families":["Nunito"],"urls":["\/cms\/templates\/frontend_templates\/shared\/css\/font-face\/nunito.css"]},"custom":{"families":["shoptet"],"urls":["\/shop\/dist\/font-shoptet-13.css.3c47e30adfa2e9e2683b.css"]}};shoptet.config.mobileHeaderVersion = '1';shoptet.config.fbCAPIEnabled = true;shoptet.config.fbPixelEnabled = true;shoptet.config.fbCAPIUrl = '/action/FacebookCAPI/';shoptet.config.initApplePaySdk = false;shoptet.content.regexp = /strana-[0-9]+[\/]/g;shoptet.content.colorboxHeader = '<div class="colorbox-html-content">';shoptet.content.colorboxFooter = '</div>';shoptet.customer = {};shoptet.csrf = shoptet.csrf || {};shoptet.csrf.token = 'csrf_wrLlj1q8e06473b6203a2b8d';shoptet.csrf.invalidTokenModal = '<div><h2>Přihlaste se prosím znovu</h2><p>Omlouváme se, ale Váš CSRF token pravděpodobně vypršel. Abychom mohli udržet Vaši bezpečnost na co největší úrovni potřebujeme, abyste se znovu přihlásili.</p><p>Děkujeme za pochopení.</p><div><a href="/login/?backTo=%2F">Přihlášení</a></div></div> ';shoptet.csrf.formsSelector = 'csrf-enabled';shoptet.csrf.submitListener = true;shoptet.csrf.validateURL = '/action/ValidateCSRFToken/Index/';shoptet.csrf.refreshURL = '/action/RefreshCSRFTokenNew/Index/';shoptet.csrf.enabled = false;shoptet.config.googleAnalytics ||= {};shoptet.config.googleAnalytics.isGa4Enabled = true;shoptet.config.googleAnalytics.route ||= {};shoptet.config.googleAnalytics.route.ua = "UA";shoptet.config.googleAnalytics.route.ga4 = "GA4";shoptet.config.rating = {enabled: true,advanced: false};shoptet.config.ums_discussion_rating_forms = true;shoptet.config.ums_forms_redesign = true;shoptet.config.ums_variant_and_filter_labels = true;shoptet.config.showPriceWithoutVat = '';</script>
+                
+        <!-- Facebook Pixel Code -->
+<script type="text/plain" data-cookiecategory="analytics">
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+$(document).ready(function(){
+fbq('set', 'autoConfig', false, '179201776024229')
+fbq("init", "179201776024229", {}, { agent:"plshoptet" });
+fbq("track", "PageView", {}, {"eventID":"c1b71c06b77dd9e955cb9fdb382d27f3"});
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({"fbpixel": "loaded","event": "fbloaded"});
+});
+</script>
+<noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=179201776024229&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+        
+        
+        <!-- ChatGPT Ads pixel -->
+<script>
+(function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var js=d.createElement(s);js.async=true;js.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(js,f)})(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
+oaiq("init", {pixelId: "RLhx4DgkkLPageP32Cor84"});
+shoptet.config.openAiPixelMinorUnitDecimals = 2;
+oaiq("measure", "page_viewed", {"type":"contents"});
+</script>
+<!-- End ChatGPT Ads pixel -->
+
+
+                
+<script>if (window.self !== window.top) {const script = document.createElement('script');script.type = 'module';script.src = "/shop/dist/editorPreview.js.7bc41cc42d12aa23c5e0.js";document.body.appendChild(script);}</script>                                            
+                                                    <!-- User include -->
+        <div class="container">
+            <!-- api 429(83) html code footer -->
+<script>;(function(p,l,o,w,i,n,g){if (!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d70shl7vidtft.cloudfront.net/ecmtr-2.4.2.1.js","ecotrack"));(function(){window.ecotrack('newTracker', 'cf', 'd2dpiwfhf3tz0r.cloudfront.net',{ appId: 'woox'});if (shoptet.customer.email){window.ecotrack('setUserId', shoptet.customer.email)}else{window.ecotrack('setUserIdFromLocation', 'ecmid')};if (document.cookie.includes('CookiesConsent={"consent":"personalisation"') || document.cookie.includes('CookiesConsent={"consent":"analytics,personalisation"')) {window.ecotrack('trackPageView');}if (window.dataLayer && (document.cookie.includes('CookiesConsent={"consent":"personalisation"') || document.cookie.includes('CookiesConsent={"consent":"analytics,personalisation"'))){var layer=dataLayer.filter(function(layer){return layer.shoptet})[0]; if (layer && layer.shoptet && layer.shoptet && layer.shoptet.product) {if(layer.shoptet.product.hasVariants && layer.shoptet.product.codes){window.ecotrack('trackStructEvent', 'ECM_PRODUCT_VIEW', layer.shoptet.product.codes[0].code)}else{window.ecotrack('trackStructEvent', 'ECM_PRODUCT_VIEW', layer.shoptet.product.code);}} if (layer && layer.shoptet && layer.shoptet.cart){if (layer.shoptet.pageType !=='thankYou'){var basket=[]; for (var i in layer.shoptet.cart){basket.push({productId: layer.shoptet.cart[i].code, amount: layer.shoptet.cart[i].quantity})}window.ecotrack('trackUnstructEvent',{schema: '', data:{action: 'ShoptetBasket', products: basket}});}else if (layer.shoptet.order){window.ecotrack('addTrans', layer.shoptet.order.orderNo, 'shoptet', layer.shoptet.order.total, layer.shoptet.order.tax, layer.shoptet.order.shipping, layer.shoptet.order.city, layer.shoptet.order.district, layer.shoptet.order.country); for (var i in layer.shoptet.order.content){window.ecotrack('addItem', layer.shoptet.order.orderNo, layer.shoptet.order.content[i].sku, layer.shoptet.order.content[i].name, layer.shoptet.order.content[i].category, layer.shoptet.order.content[i].price, layer.shoptet.order.content[i].quantity );}window.ecotrack('trackTrans'); window.ecotrack('trackStructEvent', 'shoptet', 'apipair', layer.shoptet.order.orderNo);}}}})();</script>
+<!-- project html code footer -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "kg3ojtrw74");
+</script>
+
+<script>
+var druhvypoctu = 'vypoctem' //možnosti procentualni nebo vypoctem
+var wooxClubSleva = '50%'
+var idOsobnichDoprav = ['shipping-58', 'shipping-64', 'shipping-108']
+var idPplParcelshop = ['shipping-143']
+var idBalikovna = 'shipping-140'
+var IdPlatebOsobniOdber = '111'
+var skrytiOsobnichUdaju = ['Zásilkovna - Výdejní místa', 'Osobní odběr', 'Česká pošta - balík na poštu', 'WOOX Praha', 'WOOX Jeseník', 'WOOX Ostrava', 'PPL - Výdejní místa', 'PPL - Výdejní místa', 'Balíkovna - Výdejní místa', 'Zásilkovna na výdejní místo']
+if ($('.in-index').length) {
+	$('.homepage-products-heading-10').wrap('<a href="/novinky-zeny/"></a>');
+	$('.homepage-products-heading-13').wrap('<a href="/novinky-muzi/"></a>');
+}
+if ($('.type-detail').length) {
+  $('html').on('click', '.link-icon.watchdog', function () {
+    setTimeout(function() { 
+      $('label[for="onStock"]').click()
+    }, 300);
+  });
+}
+$(document).ready(function() {
+  $('.id--13 input').attr('autocomplete', 'off');
+});
+
+var vlastni_banner = [
+    {
+        "kategorie":[
+        {
+            "url_kategorie": "/kabelky-a-tasky-zeny/",
+            "banner": [
+                {
+                    "url_banneru_pc": "/user/documents/upload/ban.jpg",
+                    "url_banneru_mobil": "/user/documents/upload/ban.jpg",
+                    "odkaz_banneru": "/kabelka-colima/"
+                }
+            ]    
+        }, 
+        {
+            "url_kategorie": "/kozodielna-zeny/",
+            "banner": [
+                {
+                    "url_banneru_pc": "/user/documents/upload/ban.jpg",
+                    "url_banneru_mobil": "/user/documents/upload/ban.jpg",
+                    "odkaz_banneru": "/kabelka-colima/"
+                }
+            ]    
+        },  
+
+        ]
+    }
+]
+</script>
+<!-- sizechat start -->
+<script defer src="https://www.sizechat.com/storefront/j2/setup"></script>
+<!-- sizechat end -->
+
+<script src="https://embed.cloudflarestream.com/embed/sdk.latest.js"></script>
+<script>
+$('.id--17 input#phone').addClass('required');
+$(document).on('ready', function(){
+	$('.p-data-wrapper, .type-detail .breadcrumbs').attr('style', 'visibility: visible')
+})
+favorite_url = '/klient/oblubene/'
+
+dopravaZdarmaOd = 2500
+postovne = `Pořiďte si wooxus za více než ${dopravaZdarmaOd} Kč a poštovné máte za nulu. Pošťáci budou navíc rádi, že nemusí běhat jako zdutá koza s každou ponožkou.`
+
+cache_url = '/'
+nedostupne_zbozi = ['Momentálně nedostupné', 'VYPRODANÉ']
+</script>
+
+<!-- MIME - START -->
+<script>
+const OPEN_FILTER_IDS = ["72","5","89"]
+</script>
+<script type="text/javascript" src="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/upload/js/filters.js?v=7"></script>
+<script type="text/javascript" src="https://cdn.myshoptet.com/usr/www.woox.cz/user/documents/all.js?v=2026-10-20"></script>
+<!-- MIME - END -->
+
+<script>
+
+var emailCookie = shoptet.cookie.get("havepasword#"+getShoptetDataLayer().customer.email)
+if (window.location.href.indexOf('/klient/nastavenie/') !== -1) {
+    if (emailCookie === 'yes'){
+        document.cookie = "havepasword#"+getShoptetDataLayer().customer.email+"=yes;path=/";
+    }
+    else if (emailCookie === 'yes'|| !emailCookie){
+        document.cookie = "havepasword#"+getShoptetDataLayer().customer.email+"=no;path=/"
+    }
+}
+/*  else{
+	document.cookie = "havepasword#"+getShoptetDataLayer().customer.email+"=no;path=/"
+}  */
+
+if($('.personal-page').length){
+
+    $("#register-form").submit(function() {
+        document.cookie = "havepasword#"+getShoptetDataLayer().customer.email+"=yes;path=/";
+    });
+
+    if (emailCookie === 'yes' && !$('label[for="currentPassword"]').length) {
+        console.log('"getShoptetDataLayer().customer.email" nastavena na "yes" a neexistuje prvek "label[for="currentPassword"]')
+         // $('#register-form label[for="currentPassword"]').closest('div.form-group').after('<div class="title lost-pasword form-group visible"><span>Ak nepoznáte súčasné heslo, navštívte stránku <a href="/klient/zabudnute-heslo/">Zabudnuté heslo</a>.</span></div>')
+ 
+         //$('#register-form').before('<div class="title lost-pasword form-group visible background"><span>Pre editáciu údajov si vytvorte heslo.</span></div>')
+       //$('#register-form label[for="password"]').closest('div.form-group').before('<div class="title lost-pasword form-group visible"><span>Ak nepoznáte súčasné heslo, navštívte stránku <a href="/klient/zabudnute-heslo/">Zabudnuté heslo</a>.</span></div>')
+    }
+    if (!$('label[for="currentPassword"]').length && !emailCookie) {
+        console.log('Zobrazení zprávy, pokud neexistuje prvek "label[for="currentPassword"]" a cookies nejsou nastaveny')
+        $('#register-form').before('<div class="title lost-pasword form-group visible background"><span>Pro editaci údajů si vytvořte heslo.</span></div>')
+    }
+    if (!$('label[for="currentPassword"]').length && emailCookie === 'no') {
+        console.log('Zobrazení zprávy, pokud neexistuje prvek "label[for="currentPassword"]" a cookies nejsou nastaveny')
+        $('#register-form').before('<div class="title lost-pasword form-group visible background"><span>Pro editaci údajů si vytvořte heslo.</span></div>')
+    }
+    if ($('label[for="currentPassword"]').length && emailCookie) {
+        console.log('Zobrazení zprávy, pokud existuje prvek "label[for="currentPassword"]" a máte cookies')
+            $('#register-form label[for="currentPassword"]').closest('div.form-group').after('<div class="title lost-pasword form-group visible"><span>Pokud neznáte současné heslo, navštivte stránku <a href="/klient/zapomenute-heslo/">zapomenuté heslo</a>.</span></div>')
+    }
+
+    if ($('label[for="currentPassword"]').length && !emailCookie) {
+        console.log('Zobrazení zprávy, pokud existuje prvek "label[for="currentPassword"]" a nemáte cookies')
+    }
+   
+}
+</script>
+<script>
+$('.reca-number').html($('.reca-number strong').text())
+shoptet.cookie.create('debugTimestamp', 1, {days: 1});
+</script>
+
+
+<!-- Ybug code start (https://ybug.io) -->
+<script type='text/javascript'>
+(function() {
+    window.ybug_settings = {"id":"33km016nnh75gpkdt5hy"};
+    var ybug = document.createElement('script'); ybug.type = 'text/javascript'; ybug.async = true;
+    ybug.src = 'https://widget.ybug.io/button/'+window.ybug_settings.id+'.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ybug, s);
+})();
+</script>
+<!-- Ybug code end -->
+
+<script>
+// Ybug on mobile
+function checkURLForYbug() {
+  const url = window.location.href
+
+  if (url.includes('ybug')) {
+    Ybug.open()
+  } 
+}
+
+window.addEventListener('load', function() {
+	checkURLForYbug()
+})
+</script>
+<!--<script>window.varify = window.varify || {}; window.varify.iid = 5336;</script>
+<script src="https://app.varify.io/varify.js" defer></script>-->
+
+
+
+        </div>
+        <!-- /User include -->
+
+        
+        
+        
+        <div class="messages">
+            
+        </div>
+
+        <div id="screen-reader-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+            <script id="trackingScript" data-products='{"products":{},"banners":{"198":{"id":"banner4","name":"desktop (2buttons)","position":"custom"},"123":{"id":"banner19","name":"1 - top - woox klub","position":"nextToCarousel"},"120":{"id":"banner18","name":"1 - middle - ZRUŠILI SME VEĽKOOBCHOD!","position":"indexPageBody"},"132":{"id":"banner22","name":"2 - middle - JESENICKÉ BRAŠNÁRSTVO","position":"indexPageBody"},"210":{"id":"banner41","name":"kategorie","position":"footer"},"206":{"id":"banner6","name":"1 - Inspirátor","position":"footer"},"129":{"id":"banner21","name":"2 - footer - USP","position":"footer"},"194":{"id":"banner3","name":"1 - Homepage \/ Flowbox","position":"footer"},"185":{"id":"banner37","name":"Aktualita","position":"footer"},"19":{"id":"banner9","name":"patička - Zákaznický opečovatel","position":"footer"},"11":{"id":"banner1","name":"Newsletter","position":"footer"},"12":{"id":"banner2","name":"patička - Kamenné prodejny a osobní odběr","position":"footer"},"20":{"id":"banner10","name":"patička - Informace, O Woox, Zábava","position":"footer"},"18":{"id":"banner8","name":"registrace - box","position":"footer"},"23":{"id":"banner7","name":"registrační box","position":"footer"}},"lists":[]}'>
+        if (typeof shoptet.tracking.processTrackingContainer === 'function') {
+            shoptet.tracking.processTrackingContainer(
+                document.getElementById('trackingScript').getAttribute('data-products')
+            );
+        } else {
+            console.warn('Tracking script is not available.');
+        }
+    </script>
+    </body>
+</html>
