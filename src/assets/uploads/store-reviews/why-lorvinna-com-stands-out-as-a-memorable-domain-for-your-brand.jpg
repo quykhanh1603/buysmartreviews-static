@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img"
+  aria-label="lorvinna.com premium domain for sale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="60%" stop-color="#0f1729"/>
+      <stop offset="100%" stop-color="#091d18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Brand row -->
+  <g transform="translate(64,64)">
+    <rect width="48" height="48" rx="12" fill="#22c55e"/>
+    <text x="24" y="34" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
+      font-size="28" font-weight="900" fill="#0a0f1d">E</text>
+    <text x="64" y="34" font-family="Inter, system-ui, sans-serif" font-size="22"
+      font-weight="600" fill="#cbd5e1" letter-spacing="0.3">ExpiredDomains.com</text>
+  </g>
+
+  <!-- Headline block — centered so it survives Facebook's square center-crop -->
+  <g>
+    <text x="600" y="240" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24"
+      font-weight="600" fill="#86efac" letter-spacing="4">PREMIUM DOMAIN · FOR SALE</text>
+    <text x="600" y="352" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
+      font-size="92" font-weight="800" fill="#ffffff" letter-spacing="-2">
+      lorvinna.com
+    </text>
+
+    <text x="600" y="412" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
+      font-size="34" font-weight="700" fill="#22c55e">$195 USD</text>
+  </g>
+
+
+  
+              <g>
+                <rect x="450" y="470" width="300" height="132" rx="20"
+                  fill="rgba(34,197,94,0.12)" stroke="rgba(34,197,94,0.45)" stroke-width="1.5"/>
+                <text x="600" y="510" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
+                  font-size="20" font-weight="600" fill="#86efac" letter-spacing="2.5">
+                  AGE
+                </text>
+                <text x="600" y="570" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
+                  font-size="52" font-weight="800" fill="#ffffff">
+                  2y
+                </text>
+              </g>
+  
+</svg>
